@@ -20,10 +20,15 @@ body{
     height: 113px;
     left: 0px;
     top: 0px;
-
     background: #2CBC63;
 }
 
+.cabecalho_logo{
+
+}
+
+.logo  {
+}
 
 .resolucao{
     margin: auto auto;
@@ -41,7 +46,19 @@ body{
     font-size: 20px;
     line-height: 27px;
 
+    display: inline-block;
+
     color: #000000;
+}
+
+.ru_ru{
+    width: 500px;
+    height: 500px;
+}
+
+.resolucao,
+.ru_ru {
+    display: inline-block;
 }
 
 .rodape{
@@ -53,9 +70,6 @@ body{
     right: auto;
     top: 1031px;
     background: #2CBC63;
-
-
-
     width:100%;
     margin: auto auto;
     padding: 10px 5px;
@@ -77,6 +91,7 @@ body{
     font-size: 14px;
     line-height: 10px;
 }
+
 
 /*DEIXANDO ADAPTADO PARA MOBILE*/
 @media screen and (max-width: 720px) {
