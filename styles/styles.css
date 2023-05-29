@@ -80,11 +80,29 @@ body{
 
 /*DEIXANDO ADAPTADO PARA MOBILE*/
 @media screen and (max-width: 720px) {
-    .cabecalho,
-    .resolucao,
+    .cabecalho{
+
+    }
+
+    .resolucao{
+        margin: auto auto;
+        padding-top: 150px; 
+    }
+
     .rodape{
-        width: 90%;
-        margin: 3rem auto;
-        justify-content: start;
+        position: absolute;
+        /*width: 1440px;*/
+        height: 181px;
+        left: 0px;
+        right: 0px;
+        right: auto;
+        top: 1031px;
+        background: #2CBC63;
+    
+    
+    
+        width:100%;
+        margin: auto auto;
+        padding: 10px 5px;
     }
 }
