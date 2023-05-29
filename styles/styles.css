@@ -26,6 +26,10 @@ body{
 
 
 .resolucao{
+    margin: auto auto;
+    padding-top: 150px;
+
+
     width: 1325px;
     height: 805px;
     left: 58px;
@@ -74,3 +78,13 @@ body{
     line-height: 10px;
 }
 
+/*DEIXANDO ADAPTADO PARA MOBILE*/
+@media screen and (max-width: 720px) {
+    .cabecalho,
+    .resolucao,
+    .rodape{
+        width: 90%;
+        margin: 3rem auto;
+        justify-content: start;
+    }
+}
