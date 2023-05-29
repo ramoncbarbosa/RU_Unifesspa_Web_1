@@ -1,0 +1,70 @@
+*{
+
+}
+
+body{
+    
+}
+
+.cabecalho {
+    position: absolute;
+    width:100%;
+    margin: auto auto;
+    padding: 10px 5px;
+    height: 113px;
+    left: 0px;
+    top: 0px;
+
+    background: #2CBC63;
+}
+
+
+.resolucao{
+    width: 1325px;
+    height: 805px;
+    left: 58px;
+    top: 226px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.rodape{
+    position: absolute;
+    /*width: 1440px;*/
+    height: 181px;
+    left: 0px;
+    right: 0px;
+    right: auto;
+    top: 1031px;
+    background: #2CBC63;
+
+
+
+    width:100%;
+    margin: auto auto;
+    padding: 10px 5px;
+}
+
+.contatos{
+    width: 266px;
+    height: 116px;
+    
+    right: 38px;
+    top: 1042px;
+    color: #FFFFFF;
+
+    
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+}
+
