@@ -83,3 +83,29 @@
 #instagram{
     padding-top: 10px;
 }
+
+/*DEIXANDO ADAPTADO PARA MOBILE*/
+@media screen and (max-width: 720px) {
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .logoru{
+        width: 70%;
+        height: 70%;
+    }
+
+    .textoh1{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        box-sizing: border-box;
+    }
+    .rodape{
+        height: 20%;
+        width: 100vh;
+        flex-shrink: 0;
+        background: #2CBC63;
+    }
+}
