@@ -151,6 +151,9 @@ body{
 
     .ru_ru{
         width: 100%;
+        height: 100%;
+        max-width: 800px;
+        max-height: 600px;
         flex-direction: column;
     }
 
