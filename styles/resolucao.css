@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0    
+}
+
+
+
+:root{
+    
+}
+
+.cabecalho {
+    width:100%;
+    margin: auto auto;
+    padding: 10px 5px;
+    height: 113px;
+    left: 0px;
+    top: 0px;
+    background: #2CBC63;
+}
+
+.hiper{
+    flex-direction: row-reverse;
+    align-content: flex-end;
+    float: right;
+}
+
+.textoh1{
+    color: #000000;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.textop{
+    min-height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 10%;
+    margin: 20px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    flex: 1 0 auto;
+
+    color: #000000;
+}
+
+.ru_ru{
+    width: 586px;
+    height: 557px;
+    left: 158px;
+    top: 209px;
+    padding-top: 20px;
+}
+
+.resolucao,
+.ru_ru {
+    display: inline-block;
+}
+
+.rodape{
+    height: 120px;
+    left: 0px;
+    right: 0px;
+    top: 1031px;
+    background: #2CBC63;
+    width:100%;
+    margin: auto auto;
+    padding: 10px 5px;
+    flex-shrink: 0;
+}
+
+.contatos{
+    width: 266px;
+    height: 116px;
+    right: 38px;
+    top: 1042px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+#email_unifesspa,
+#whatsapp,
+#instagram{
+    padding-top: 10px;
+}

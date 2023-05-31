@@ -38,7 +38,9 @@ body{
     float: right;
 }
 
-.cardapio{
+.cardapio,
+.resolucao_header,
+.login_header{
     border-radius: 25px;
     text-decoration: none;
     padding: 10px;
@@ -51,6 +53,8 @@ body{
 .cardapio:hover{
 
 }
+
+
 
 .resolucao{
     min-height: 100vh;
