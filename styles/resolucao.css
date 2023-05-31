@@ -22,12 +22,6 @@
     background: #2CBC63;
 }
 
-.hiper{
-    flex-direction: row-reverse;
-    align-content: flex-end;
-    float: right;
-}
-
 .textoh1{
     color: #000000;
     text-align: center;
@@ -57,19 +51,6 @@
     flex: 1 0 auto;
 
     color: #000000;
-}
-
-.ru_ru{
-    width: 586px;
-    height: 557px;
-    left: 158px;
-    top: 209px;
-    padding-top: 20px;
-}
-
-.resolucao,
-.ru_ru {
-    display: inline-block;
 }
 
 .rodape{
