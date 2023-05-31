@@ -140,6 +140,15 @@ body{
         height: 70%;
     }
 
+    .cardapio{
+        border-radius: 25px;
+        text-decoration: none;
+        padding: 10px;
+        float: right;
+        background-color: #DADCD8;
+        color: #000000;
+    }
+
     .resolucao{
         min-height: 100vh;
         width: 100vw;
