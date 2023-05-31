@@ -146,6 +146,12 @@ body{
         height: 70%;
     }
 
+    .cardapio,
+    .resolucao_header,
+    .login_header > a{
+        display: inline-block;
+}
+
     .ru_ru{
         width: 100%;
         height: 100%;
