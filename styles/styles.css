@@ -3,7 +3,8 @@
 
 body{
     width: 100%;
-    height: 100vh;  
+    height: 100vh;
+    box-sizing: border-box;  
     margin: 0;
     padding: 0;
     display: flex;
@@ -61,6 +62,7 @@ body{
 .coluna{
     float: left;
     width: 50%;
+    text-align: center;
 }
 .linha::after {
     content: "";
@@ -71,10 +73,7 @@ body{
 .ru_ru,
 .ru_ru2{
     border-radius: 2%;
-}
-
-.ru_ru2{
-    margin-left: 8px;
+    text-align: center;
 }
 
 .resolucao{
@@ -85,7 +84,8 @@ body{
     align-items: flex-start;
     box-sizing: border-box;
     padding: 0 10%;
-    margin: 20px;
+    margin-top: 8%;
+    margin-bottom: 12%;
 
     font-family: var(--font-um);
     font-style: normal;
@@ -142,7 +142,7 @@ body{
 
 
 /*DEIXANDO ADAPTADO PARA MOBILE*/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 500px) {
     body{
         width: 100%;
         height: 100%;
@@ -152,15 +152,6 @@ body{
         width: 70%;
         height: 70%;
     }
-    /*
-    .ru_ru{
-        width: 100%;
-        height: 100%;
-        max-width: 800px;
-        max-height: 600px;
-        flex-direction: column;
-    }
-    */
 
     .coluna{
         width: 100%;
