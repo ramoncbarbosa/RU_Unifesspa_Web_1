@@ -147,14 +147,12 @@ body{
         height: 70%;
     }
 
-    #cardapio,
-    #resolucao_header,
-    #login_header {
-    
+    #cardapio{
+    display: flex;
 }
 
     .bntt{
-        display: inline-block;
+        display: flex;
 }
 
     .ru_ru{
