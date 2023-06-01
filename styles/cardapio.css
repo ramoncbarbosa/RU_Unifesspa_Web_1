@@ -23,6 +23,7 @@
 }
 
 .dia{
+    position: absolute;
     width: 300px;
     height: 300px;
     left: 107px;
@@ -30,6 +31,8 @@
     border-radius: 20px;
     background-color: var(--cor-quatro);
 }
+
+
 
 
 
