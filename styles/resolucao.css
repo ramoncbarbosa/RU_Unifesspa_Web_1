@@ -1,31 +1,25 @@
-*{
-    padding:0;
-    margin:0;
-    vertical-align:baseline;
-    list-style:none;
-    border:0    
-}
+@import url(./colors_fonts.css);
+@import url(./reset.css);
 
 
-
-:root{
-    
+body{
+    height: 100vh;
 }
 
 .cabecalho {
+    height: 100vh;
     width:100%;
     margin: auto auto;
     padding: 10px 5px;
-    height: 113px;
     left: 0px;
     top: 0px;
-    background: #2CBC63;
+    background: var(--cor-um);
 }
 
 .textoh1{
-    color: #000000;
+    color: var(--cor-tres);
     text-align: center;
-    font-family: 'Open Sans';
+    font-family: var(--font-um);
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -42,7 +36,7 @@
     padding: 0 10%;
     margin: 20px;
 
-    font-family: 'Open Sans';
+    font-family: var(--font-um);
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -50,7 +44,7 @@
 
     flex: 1 0 auto;
 
-    color: #000000;
+    color: var(--cor-tres);
 }
 
 .rodape{
@@ -88,7 +82,7 @@
 @media screen and (max-width: 720px) {
     body{
         width: 100%;
-        height: 100%;
+        height: 100vh;;
     }
     .logoru{
         width: 70%;
