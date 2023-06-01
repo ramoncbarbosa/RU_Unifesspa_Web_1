@@ -15,10 +15,15 @@ body{
     width:100%;
     margin: auto auto;
     padding: 10px 5px;
-    height: 113px;
+    height: 120%;
     left: 0px;
     top: 0px;
     background: var(--cor-um);
+}
+
+.botoes{
+    display: inline;
+    
 }
 
 #cardapio,
@@ -29,7 +34,7 @@ body{
     padding: 10px;
     float: right;
     margin-right: 10px;
-    margin-top: -28px;
+    right: 40%;
     background-color: var(--cor-dois);
     color: var(--cor-tres);
 }
@@ -37,27 +42,6 @@ body{
 .cardapio:hover{
 
 }
-
-
-/*
-.ru_ru,{
-    width: 50%;
-    height: 60%;
-    left: 120%;
-    padding-top: 5%;
-}
-
-
-
-
-.resolucao,
-.ru_ru,
-.ru_ru_ru {
-    display: inline-block;
-}
-
-*/
-
 
 .coluna{
     float: left;
@@ -84,7 +68,6 @@ body{
     align-items: flex-start;
     box-sizing: border-box;
     padding: 0 10%;
-    margin-bottom: 8%;
 
     font-family: var(--font-um);
     font-style: normal;
@@ -109,6 +92,11 @@ body{
     margin-bottom: 4%;
 }
 
+
+.textp{
+    text-align: center;
+
+}
 
 .rodape{
     height: 120px;
@@ -150,6 +138,7 @@ body{
     }
 
     .logoru{
+        display: inline;
         width: 70%;
         height: 70%;
     }
