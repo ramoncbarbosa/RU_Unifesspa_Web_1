@@ -7,10 +7,10 @@ body{
 }
 
 .cabecalho {
-    height: 100vh;
     width:100%;
     margin: auto auto;
     padding: 10px 5px;
+    height: 113px;
     left: 0px;
     top: 0px;
     background: var(--cor-um);
@@ -34,7 +34,6 @@ body{
     align-items: flex-start;
     box-sizing: border-box;
     padding: 0 10%;
-    margin: 20px;
 
     font-family: var(--font-um);
     font-style: normal;
