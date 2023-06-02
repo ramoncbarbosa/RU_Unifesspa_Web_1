@@ -43,6 +43,10 @@
     border-radius: 40px;
 }
 
+    .container{
+        height: 70vh;
+    }
+
     .conteudo,
     .login_user,
     .container,
@@ -108,7 +112,6 @@
     .container{
         width: 90%;
         min-height: 100vh;
-        height: 30%;
         display: flex;
 
         flex-direction: column;

@@ -108,7 +108,6 @@
     .container{
         width: 90%;
         min-height: 100vh;
-        height: 30%;
         display: flex;
 
         flex-direction: column;
