@@ -45,29 +45,6 @@
 
     .conteudo,
     .login_user,
-    .container{
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        gap: 4%;
-        margin-top: 0.5rem;
-    }
-
-    .container_name,
-    .container_senha{
-        margin-top: 0.5rem;
-    }
-
-    .entrar{
-        text-align: center;
-        display: flex;
-        margin-top: 0.5rem;
-        padding: 0.5rem;
-    }
-
-    /*
-    .conteudo,
-    .login_user,
     .container,
     .img_logo,
     .container_name,
@@ -77,7 +54,7 @@
         flex-direction: column;
         gap: 4%;
     }
-    */
+
 
 .rodape{
     height: 120px;
@@ -142,6 +119,7 @@
     }
 
     .conteudo,
+    .login_user,
     .container{
         display: flex;
         text-align: center;
@@ -155,15 +133,9 @@
         margin-top: 0.5rem;
     }
 
-    .img_logo{
-        flex-direction: column;
-    }
-
     .entrar{
-        flex-direction: column;
         display: flex;
-        margin-top: 0.5rem;
-        padding: 0.5rem;
+        margin-top: ;
     }
 
     .rodape{

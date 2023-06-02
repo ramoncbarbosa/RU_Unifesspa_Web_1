@@ -142,6 +142,7 @@
     }
 
     .conteudo,
+    .login_user,
     .container{
         display: flex;
         text-align: center;
@@ -155,7 +156,7 @@
         margin-top: 0.5rem;
     }
 
-    .img_logo{
+    .img_logo
         flex-direction: column;
     }
 

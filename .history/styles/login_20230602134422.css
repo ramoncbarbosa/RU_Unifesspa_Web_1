@@ -141,7 +141,11 @@
         padding: 0 10%;
     }
 
-    .conteudo,
+    .img_logo{
+        text-align: center;
+    }
+
+    .login_user,
     .container{
         display: flex;
         text-align: center;
@@ -155,12 +159,7 @@
         margin-top: 0.5rem;
     }
 
-    .img_logo{
-        flex-direction: column;
-    }
-
     .entrar{
-        flex-direction: column;
         display: flex;
         margin-top: 0.5rem;
         padding: 0.5rem;
