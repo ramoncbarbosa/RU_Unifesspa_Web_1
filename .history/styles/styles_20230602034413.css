@@ -49,9 +49,6 @@ body{
 
 }
 
-
-
-/*
 .coluna{
     float: left;
     width: 50%;
@@ -64,6 +61,34 @@ body{
     display: flex;
 }
 
+/* SLIDE */
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+/* SLIDE */
+
 
 .ru_ru,
 .ru_ru2{
@@ -71,8 +96,6 @@ body{
     text-align: center;
     margin: 0;
 }
-*/
-
 
 .resolucao{
     min-height: 100vh;

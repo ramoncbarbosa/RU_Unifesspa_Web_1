@@ -49,9 +49,6 @@ body{
 
 }
 
-
-
-/*
 .coluna{
     float: left;
     width: 50%;
@@ -64,15 +61,12 @@ body{
     display: flex;
 }
 
-
 .ru_ru,
 .ru_ru2{
     border-radius: 2%;
     text-align: center;
     margin: 0;
 }
-*/
-
 
 .resolucao{
     min-height: 100vh;
@@ -142,6 +136,7 @@ body{
 #instagram{
     padding-top: 10px;
 }
+
 
 
 /*DEIXANDO ADAPTADO PARA MOBILE*/

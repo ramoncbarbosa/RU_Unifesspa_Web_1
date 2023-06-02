@@ -49,9 +49,6 @@ body{
 
 }
 
-
-
-/*
 .coluna{
     float: left;
     width: 50%;
@@ -64,15 +61,12 @@ body{
     display: flex;
 }
 
-
 .ru_ru,
 .ru_ru2{
     border-radius: 2%;
     text-align: center;
     margin: 0;
 }
-*/
-
 
 .resolucao{
     min-height: 100vh;
@@ -141,6 +135,26 @@ body{
 #whatsapp,
 #instagram{
     padding-top: 10px;
+}
+
+
+/* BARRA DE ROLAGEM */
+::-webkit-scrollbar{
+    /* largura */
+    width: auto;
+}
+::-webkit-scrollbar-track{
+    /* COR DA BARRA */
+    background-color: var(--color-three);
+    /* BORDA ARREDONDADA */
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-button{
+    /* MUDANDO A COR DE FUNDO */
+    background: var(--color-two);
+    /* BORDA ARREDONDADA */
+    border-radius: 30px;
 }
 
 

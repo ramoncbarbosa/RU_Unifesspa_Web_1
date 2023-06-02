@@ -51,7 +51,7 @@ body{
 
 
 
-/*
+
 .coluna{
     float: left;
     width: 50%;
@@ -71,8 +71,6 @@ body{
     text-align: center;
     margin: 0;
 }
-*/
-
 
 .resolucao{
     min-height: 100vh;
