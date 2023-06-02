@@ -112,10 +112,10 @@
     .container_name,
     .container_senha,
     .entrar{
-        text-align: center;
         flex-direction: column;
         gap: 4%;
     }
+
 
     .rodape{
         height: 20%;
