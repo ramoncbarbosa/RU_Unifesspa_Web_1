@@ -35,10 +35,8 @@
 }
 
 .entrar{
-    color: var(--cor-quatro);
+    color: var(--cor-tres);
     background-color: var(--cor-um);
-    text-decoration: none;
-    padding: 10px;
     border-radius: 40px;
 }
 

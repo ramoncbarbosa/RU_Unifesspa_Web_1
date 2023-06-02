@@ -37,8 +37,7 @@
 .entrar{
     color: var(--cor-quatro);
     background-color: var(--cor-um);
-    text-decoration: none;
-    padding: 10px;
+    bor
     border-radius: 40px;
 }
 
