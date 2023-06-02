@@ -80,8 +80,7 @@
     }
 
     .container{
-        width: 90%;
-        display: flex;
+        width: auto;
     }
 
 

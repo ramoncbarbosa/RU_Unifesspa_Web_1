@@ -11,7 +11,8 @@
     background: var(--cor-um);
 }
 
-.container{
+.cardapio{
+    /*
     width: 100%;
     max-width: 600px;
 
@@ -26,13 +27,30 @@
 
     background: #D9D9D9;
     border-radius: 40px;
+    */
+
+    width: 1219px;
+height: 743px;
+left: 110px;
+top: 201px;
+
+background: #D9D9D9;
+border-radius: 40px;
+}
+
+.dia{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 107px;
+    top: 265px;
+    border-radius: 20px;
+    background-color: var(--cor-quatro);
 }
 
 
-.container_name,
-.container_senha{
-    border-radius: 40px;
-}
+
+
 
 .rodape{
     height: 120px;
@@ -64,8 +82,13 @@
 }
 
 
+
 /*DEIXANDO ADAPTADO PARA MOBILE*/
 @media screen and (max-width: 720px) {
+    .cabecalho{
+
+    }
+
     .rodape{
         position: absolute;
         /*width: 1440px;*/
@@ -79,17 +102,20 @@
         margin: auto auto;
     }
 
-    .container{
+    .cardapio{
         width: 90%;
+        max-width: 600px;
+    
+        margin: 3rem auto;
+        height: 100vh;
+    
         display: flex;
+        flex-direction: row;
+    
+        justify-content: center;
+        align-items: center;
+    
+        background: #D9D9D9;
+        border-radius: 40px;
     }
-
-
-    .rodape{
-        height: 20%;
-        width: 100%;
-        flex-shrink: 0;
-        background: var(--cor-um);
-    }
-
 }
