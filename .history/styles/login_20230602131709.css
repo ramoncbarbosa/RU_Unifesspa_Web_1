@@ -32,7 +32,7 @@
 .container_name,
 .container_senha{
     border-radius: 40px;
-
+    
 }
 
 .entrar{
@@ -103,16 +103,6 @@
         align-items: flex-start;
         box-sizing: border-box;
         padding: 0 10%;
-    }
-
-    .conteudo,
-    .login_user,
-    .container,
-    .img_logo,
-    .container_name,
-    .container_senha,
-    .entrar{
-        flex-direction: column;
     }
 
 
