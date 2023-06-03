@@ -34,14 +34,16 @@ body{
     align-items: flex-start;
     box-sizing: border-box;
     padding: 0 10%;
+
     font-family: var(--font-um);
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
+
     flex: 1 0 auto;
+
     color: var(--cor-tres);
-    margin-bottom: 5rem;
 }
 
 .rodape{
@@ -49,10 +51,7 @@ body{
     left: 0px;
     right: 0px;
     top: 1031px;
-
-    
-
-    background: var(--cor-um);
+    background: #2CBC63;
     width:100%;
     margin: auto auto;
     padding: 10px 5px;
@@ -62,14 +61,14 @@ body{
 .contatos{
     width: 266px;
     height: 116px;
+    right: 38px;
+    top: 1042px;
     color: #FFFFFF;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 10px;
-
-    margin-left: 4.5%;
 }
 
 #email_unifesspa,
@@ -101,5 +100,9 @@ body{
         width: 100vh;
         flex-shrink: 0;
         background: #2CBC63;
+    }
+
+    .contatos{
+        padding-left: 25%;
     }
 }

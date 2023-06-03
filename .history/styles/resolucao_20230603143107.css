@@ -34,14 +34,16 @@ body{
     align-items: flex-start;
     box-sizing: border-box;
     padding: 0 10%;
+
     font-family: var(--font-um);
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
+
     flex: 1 0 auto;
+
     color: var(--cor-tres);
-    margin-bottom: 5rem;
 }
 
 .rodape{
@@ -50,7 +52,7 @@ body{
     right: 0px;
     top: 1031px;
 
-    
+    mar
 
     background: var(--cor-um);
     width:100%;
@@ -68,8 +70,6 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 10px;
-
-    margin-left: 4.5%;
 }
 
 #email_unifesspa,

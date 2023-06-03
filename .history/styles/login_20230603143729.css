@@ -103,20 +103,18 @@
 .contatos{
     width: 266px;
     height: 116px;
+    
+    right: 38px;
+    top: 1042px;
     color: #FFFFFF;
+
+    margin-left: 4.5%;
+
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 10px;
-
-    margin-left: 4.5%;
-}
-
-#email_unifesspa,
-#whatsapp,
-#instagram{
-    padding-top: 10px;
 }
 
 
