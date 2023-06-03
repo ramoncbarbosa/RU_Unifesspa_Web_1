@@ -65,17 +65,10 @@
         position: absolute;
         top: 5px;
         right: 10px;
-        cursor: pointer;
     }
 
-.bem-vindo{
-    font-family: var(--font-dois);
-    font-size: 18.72px;
-    margin-top: 4%;
-    }
     
-.entrar, 
-.visitante{
+.entrar{
     color: var(--cor-quatro);
     background-color: var(--cor-um);
     font-family: var(--font-dois);
@@ -86,6 +79,22 @@
     display: flex;
     margin-top: 0.5rem;
     padding: 0.5rem;
+    }
+
+.bem-vindo{
+    font-family: var(--font-dois);
+    font-size: 18px;
+}
+    
+.visitante{
+    font-family: var(--font-dois);
+    color: var(--cor-quatro);
+    background-color: var(--cor-um);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 0.5rem;
+    padding: 10px;
     }
 
 .rodape{

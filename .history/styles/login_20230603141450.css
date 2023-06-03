@@ -68,10 +68,10 @@
         cursor: pointer;
     }
 
-.bem-vindo{
-    font-family: var(--font-dois);
-    font-size: 18.72px;
-    margin-top: 4%;
+    .bem-vindo{
+        font-family: var(--font-dois);
+        font-size: 18px;
+        top: 10px;
     }
     
 .entrar, 

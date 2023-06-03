@@ -68,11 +68,6 @@
         cursor: pointer;
     }
 
-.bem-vindo{
-    font-family: var(--font-dois);
-    font-size: 18.72px;
-    margin-top: 4%;
-    }
     
 .entrar, 
 .visitante{
@@ -87,6 +82,12 @@
     margin-top: 0.5rem;
     padding: 0.5rem;
     }
+
+.bem-vindo{
+    font-family: var(--font-dois);
+    font-size: 18px;
+    top: 10px;
+}
 
 .rodape{
     height: 120px;
