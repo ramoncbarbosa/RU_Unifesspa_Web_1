@@ -67,6 +67,13 @@
         
     }
 
+.lnr-eye {
+    
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
 .bem-vindo{
     font-family: var(--font-dois);
     font-size: 18.72px;

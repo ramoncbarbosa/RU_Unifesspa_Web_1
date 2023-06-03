@@ -67,6 +67,13 @@
         
     }
 
+.lnr-eye {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
 .bem-vindo{
     font-family: var(--font-dois);
     font-size: 18.72px;
@@ -86,7 +93,7 @@
     margin-top: 0.5rem;
     padding: 0.5rem;
     margin-bottom: -4rem;
-}
+    }
 
 .entrar{
     margin-bottom: 50%;
