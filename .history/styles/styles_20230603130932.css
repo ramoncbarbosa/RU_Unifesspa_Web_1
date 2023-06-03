@@ -22,13 +22,12 @@ body{
 }
 
 #logo{
-    text-align: center;
+    width: 90%;
 }
 
 .botoes{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 #cardapio,

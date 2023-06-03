@@ -22,7 +22,11 @@ body{
 }
 
 #logo{
-    text-align: center;
+    width: 100%;
+    : 50%;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .botoes{

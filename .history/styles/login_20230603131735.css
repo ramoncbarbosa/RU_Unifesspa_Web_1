@@ -64,7 +64,6 @@
 .entrar{
     color: var(--cor-quatro);
     background-color: var(--cor-um);
-    font-family: var(--font-dois);
     text-decoration: none;
     text-align: center;
     border-radius: 40px;
@@ -73,21 +72,15 @@
     margin-top: 0.5rem;
     padding: 0.5rem;
     }
-
-.bem-vindo{
-    font-family: var(--font-dois);
-    font-size: 18px;
-}
     
-.visitante{
-    font-family: var(--font-dois);
-    color: var(--cor-quatro);
-    background-color: var(--cor-um);
-    text-decoration: none;
-    text-align: center;
-    border-radius: 40px;
-    margin-top: 0.5rem;
-    padding: 10px;
+    .visitante{
+        font-family: var(--font-dois);
+
+    }
+
+    .visitante_entrar{
+        font-family: var(--font-dois);
+        text-decoration: none;
     }
 
 .rodape{
@@ -168,23 +161,6 @@
         margin-top: 0.5rem;
         padding: 0.5rem;
     }
-
-    .bem-vindo{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        margin-top: 0.5rem;
-        padding: 0.5rem;
-    }
-
-    .visitante{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        margin-top: 0.5rem;
-        padding: 0.5rem;
-    }
-    
 
     .rodape{
         width: 100%;

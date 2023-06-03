@@ -79,42 +79,9 @@
 
     }
 
-    .cabecalho {
-        width:100%;
-        margin: auto auto;
-        padding: 10px 5px;
-        height: 120%;
-        left: 0px;
-        top: 0px;
-        background: var(--cor-um);
-    }
-    
-    #logo{
-        text-align: center;
-    }
-    
-    .botoes{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #cardapio,
-    #resolucao_header,
-    #login_header{
-        font-family: var(--font-dois);
-        font-size: 12px;
-        border-radius: 25px;
-        text-decoration: none;
-        padding: 10px;
-        float: right;
-        margin-right: 10px;
-        right: 40%;
-        background-color: var(--cor-quatro);
-        color: var(--cor-tres);
-    }
 
 
+    
     .rodape{
         position: absolute;
         /*width: 1440px;*/

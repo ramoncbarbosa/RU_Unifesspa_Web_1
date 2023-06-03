@@ -64,7 +64,6 @@
 .entrar{
     color: var(--cor-quatro);
     background-color: var(--cor-um);
-    font-family: var(--font-dois);
     text-decoration: none;
     text-align: center;
     border-radius: 40px;
@@ -77,6 +76,7 @@
 .bem-vindo{
     font-family: var(--font-dois);
     font-size: 18px;
+    margin-bottom: 40px;
 }
     
 .visitante{

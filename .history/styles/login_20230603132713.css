@@ -64,7 +64,7 @@
 .entrar{
     color: var(--cor-quatro);
     background-color: var(--cor-um);
-    font-family: var(--font-dois);
+    font-family: var();
     text-decoration: none;
     text-align: center;
     border-radius: 40px;
