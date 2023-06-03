@@ -32,26 +32,14 @@
     border-radius: 40px;
 }
 
-.container_container_container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-items: center;
-}
-
 .container_name,
 .container_senha{
         border-radius: 40px;
         margin-top: 0.5rem;
-        padding: 1rem;
-        display: flex;
-        align-items: center
-        
     }
 
 
-    
-    .entrar{
+.entrar{
     color: var(--cor-quatro);
     background-color: var(--cor-um);
     text-decoration: none;
@@ -61,9 +49,7 @@
     display: flex;
     margin-top: 0.5rem;
     padding: 0.5rem;
-    
     }
-    
 
 .rodape{
     height: 120px;
@@ -104,12 +90,13 @@
 
     .container{
         width: 90%;
-        min-height: 100%;
+        min-height: 100vh;
         height: 30%;
         display: flex;
 
         flex-direction: column;
         justify-content: center;
+        align-items: flex-start;
         box-sizing: border-box;
         padding: 22%;
     }
@@ -117,10 +104,10 @@
 
     .img_logo{
         flex-direction: column-reverse;
-        text-align: center;
+        padding: %;
     }
 
-    .container{
+.container{
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -130,15 +117,11 @@
     .container_name,
     .container_senha{
         margin-top: 0.5rem;
-        padding: 1rem;
-        display: flex;
-        align-items: center;
     }
 
     .entrar{
         flex-direction: column;
         display: flex;
-        align-items: center;
         margin-top: 0.5rem;
         padding: 0.5rem;
     }
