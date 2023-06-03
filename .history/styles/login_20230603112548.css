@@ -145,13 +145,16 @@
     }
 
     .rodape{
-        width: 100%;
         height: 20%;
-        
-        position: absolute;
+        width: 100%;
+        position:static;
         flex-shrink: 0;
+        position:;
 
         background: var(--cor-um);
+        left: 0px;
+        right: auto;
+        background: #2CBC63;
     }
 
     .rodape{

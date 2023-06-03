@@ -145,10 +145,9 @@
     }
 
     .rodape{
-        width: 100%;
         height: 20%;
         
-        position: absolute;
+        position: static;
         flex-shrink: 0;
 
         background: var(--cor-um);
