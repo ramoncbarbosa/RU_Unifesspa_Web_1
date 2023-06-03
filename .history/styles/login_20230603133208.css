@@ -48,14 +48,13 @@
         border-radius: 40px;
         border: 0 none;
         outline: 0;
-
+        
         justify-items: center;
-        align-items: center;
-        text-align: center;
 
         margin-top: 0.5rem;
         padding: 1rem;
         display: flex;
+        align-items: center;
 
         font-family: var(--font-dois);
         
