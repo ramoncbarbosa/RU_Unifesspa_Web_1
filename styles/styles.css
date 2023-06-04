@@ -21,13 +21,10 @@ body{
     background: var(--cor-um);
 }
 
-#logo{
-    width: 50%;
-}
-
 .botoes{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 #cardapio,
@@ -72,7 +69,7 @@ body{
 .texth2{
     color: var(--cor-tres);
     text-align: center;
-    font-family: var(--font-um);
+    font-family: var(--font-dois);
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -81,10 +78,59 @@ body{
     margin-bottom: 4%;
 }
 
+.ruru{
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.textp{
-    text-align: center;
+ .rururu{
+    max-width: 80%;
+ }
 
+.resolucao{
+    /*
+    min-height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 10%;
+
+    margin-bottom: 5rem;
+    font-family: var(--font-dois);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    flex: 1 0 auto;
+
+    color: var(--cor-tres);
+    */
+    width: 100vw;
+    /*
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+    */
+    
+    box-sizing: border-box;
+    padding: 0 10%;
+    font-family: var(--font-dois);
+    font-style: normal;
+    font-weight: auto;
+    font-size: 16px;
+
+    line-height: 27px;
+    flex: 1 0 auto;
+    
+    color: var(--cor-tres);
+    margin-bottom: 5rem;
 }
 
 .rodape{
@@ -105,11 +151,12 @@ body{
     right: 38px;
     top: 1042px;
     color: var(--cor-quatro);
-    font-family: var(--font-um);
+    font-family: var(--font-dois);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 10px;
+    margin-left: 4.5%;
 }
 
 #email_unifesspa,
@@ -120,7 +167,7 @@ body{
 
 
 /*DEIXANDO ADAPTADO PARA MOBILE*/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 520px) {
     body{
         width: 100%;
         height: 100%;
@@ -135,6 +182,18 @@ body{
     .coluna{
         width: 100%;
     }
+
+    .ruru{
+        top: 50%;
+        left: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rururu{
+        max-width: 80%;
+     }
 
     .resolucao{
         min-height: 100vh;
