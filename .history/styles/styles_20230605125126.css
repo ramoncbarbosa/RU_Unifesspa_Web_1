@@ -169,9 +169,9 @@ nav {
     }
 
     .logoru{
-        margin-left: 50%;
-        width: auto;
-        justify-content: center;
+        width: 100%;
+        flex-direction: column-reverse;
+        text-align: center;
     }
 
     .botoes{
