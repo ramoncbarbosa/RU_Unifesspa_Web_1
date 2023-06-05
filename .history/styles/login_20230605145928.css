@@ -31,9 +31,8 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    /*
-    background: var(--cor-dois);
-    */
+
+    
     border-radius: 40px;
 
 }
@@ -57,7 +56,6 @@
 .container_senha{
         border-radius: 40px;
         border: 0 none;
-        background: var(--cor-dois);
         outline: 0;
 
         justify-items: center;
