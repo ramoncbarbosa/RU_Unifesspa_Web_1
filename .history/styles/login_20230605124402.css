@@ -11,9 +11,7 @@
     background: var(--cor-um);
 }
 
-.logoru{
-    margin-right: 50%;
-}
+
 
 .container{
     width: 80%;
@@ -132,16 +130,6 @@
     body{
         width: 100%;
         height: 100%;
-    }
-
-    .cabecalho{
-        flex-direction: column;
-    }
-
-    .logoru{
-        width: 100%;
-        height: 70%;
-        align-items: center;
     }
 
     .container{
