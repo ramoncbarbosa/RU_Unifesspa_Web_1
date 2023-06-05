@@ -1,7 +1,7 @@
 @import url(./reset.css);
 
 .carrossel {
-    width: 100%;
+    width: 900%;
   }
   
   .slide {
@@ -26,7 +26,6 @@
     color: #fff;
     border: none;
     cursor: pointer;
-    justify-content: center;
   }
   
   .prev-button {
