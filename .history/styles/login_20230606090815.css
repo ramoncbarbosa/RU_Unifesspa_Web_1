@@ -132,12 +132,12 @@ form{
     }
 
     .container{
-        width: 85vw;
+        width: 50vw;
         height: 80vh;
     
         margin-top: 5rem;
         margin-bottom: 5rem; 
-        margin-left: 8%;
+        margin-left: 25%;
     }
 
     .cabecalho{

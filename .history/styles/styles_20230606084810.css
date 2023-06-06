@@ -12,21 +12,41 @@ body{
 }
 /*MEU HEADER*/
 .cabecalho {
+    /*
+    width:100%;
+    padding: 10px 5px;
+    height: 15%;
+    
     background: var(--cor-um);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    */
     display: flex;
     align-items: center;
 }
 
 .logoru{
+    /*
+    width: 20%;
+    height: 100%;
+    */
     flex-grow: 0;
     flex-shrink: 0;
-    margin-right: 10px;
+  margin-right: 10px;
     }
 
 
 .botoes {
-    display: flex;
-    justify-content: flex-end;
+    /*
+    flex: 1;
+    text-align: right;
+    margin-top: 10px;
+    margin-left: auto;
+    display: inline-flex;
+    margin-right: 10px;
+    */
     display: inline-flex;
     margin-left: auto;
 }
@@ -148,6 +168,7 @@ button {
     }
 
     .logoru{
+        margin-left: 50%;
         width: auto;
         justify-content: center;
     }

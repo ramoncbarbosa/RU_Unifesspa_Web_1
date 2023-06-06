@@ -12,27 +12,30 @@ body{
 }
 /*MEU HEADER*/
 .cabecalho {
+    width:100%;
+    padding: 10px 5px;
+    height: 15%;
+    
     background: var(--cor-um);
+
     display: flex;
     align-items: center;
+    flex-direction: column; 
 }
 
 .logoru{
-    flex-grow: 0;
-    flex-shrink: 0;
-    margin-right: 10px;
+    width: 10%;
+    height: 120%;
     }
 
 
-.botoes {
-    display: flex;
-    justify-content: flex-end;
-    display: inline-flex;
+section {
+    flex: 1;
+    text-align: right;
+    margin-top: 10px;
     margin-left: auto;
-}
-
-button {
-    margin-left: 10px;
+    display: inline-flex;
+    margin-right: 10px;
 }
 
 .container_botoes{
@@ -148,6 +151,7 @@ button {
     }
 
     .logoru{
+        margin-left: 50%;
         width: auto;
         justify-content: center;
     }
