@@ -129,10 +129,10 @@ form{
     
     #usr,
     #pass{
-    width: 290px;
+    width: 200px;
     margin: 0.5rem;
     border-radius: 30px;
-    padding: 3%;
+    padding: 0.5%;
 }
     
     #entrar{

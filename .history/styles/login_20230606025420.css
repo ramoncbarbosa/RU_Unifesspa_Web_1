@@ -49,11 +49,11 @@ form{
     border-radius: 30px;
     padding: 0.5%;
     background-color: var(--cor-dois);
+    
 }
 
 #entrar{
-    width: 100px;
-    border-radius: 40px;
+    border-radius: 30px;
     padding: 10%;
     background-color: var(--cor-um);
 }
@@ -129,14 +129,13 @@ form{
     
     #usr,
     #pass{
-    width: 290px;
+    width: 200px;
     margin: 0.5rem;
     border-radius: 30px;
-    padding: 3%;
+    padding: 0.5%;
 }
     
     #entrar{
-        width: 70px;
         border-radius: 30px;
         padding: 10%;
     }
