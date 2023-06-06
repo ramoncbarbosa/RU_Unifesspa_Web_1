@@ -13,12 +13,17 @@ body{
 
 .cabecalho {
     width:100%;
+
     padding: 10px 5px;
-    height: auto;
+    
+    height: 120%;
+    left: 0px;
+    top: 0px;
     background: var(--cor-um);
+
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column; 
 }
 
 .logoru{
@@ -35,6 +40,7 @@ section {
 button {
     display: inline-flex;
     margin-right: 10px;
+    box-shadow: none;
 }
 
 .container_botoes{
