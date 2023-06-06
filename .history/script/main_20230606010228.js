@@ -1,7 +1,6 @@
 /*
 alert('Olá, Visitante');
 */
-
 /*
 querySelector('#teclad_cardapio');
 querySelector('butoon');

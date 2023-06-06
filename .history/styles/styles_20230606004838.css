@@ -41,7 +41,7 @@ button {
     margin-right: 10px;
 }
 
-.container_botoes{
+.container_boto{
     width: 100%;
     padding: 0;
     display: flex;
@@ -97,6 +97,18 @@ button {
     margin-bottom: 4%;
 }
 
+.ruru{
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .rururu{
+    max-width: 80%;
+ }
+
 .resolucao{
     width: 100vw;
     box-sizing: border-box;
@@ -148,6 +160,11 @@ button {
 
 /*DEIXANDO ADAPTADO PARA MOBILE*/
 @media screen and (max-width: 520px) {
+    body{
+        width: 100%;
+        height: 70%;
+    }
+
     .cabecalho{
         flex-direction: column;
     }
@@ -158,12 +175,25 @@ button {
         justify-content: center;
     }
 
-    .botoes{
+    .container_boto{
         width: 100%;
+        padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    .ruru{
+        top: 50%;
+        left: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rururu{
+        max-width: 80%;
+     }
 
     .resolucao{
         min-height: 100vh;

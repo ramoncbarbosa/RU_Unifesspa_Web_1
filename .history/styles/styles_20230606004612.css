@@ -41,12 +41,11 @@ button {
     margin-right: 10px;
 }
 
-.container_botoes{
-    width: 100%;
+.container_boto{
+    list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    j
 }
 
 
@@ -96,6 +95,18 @@ button {
     margin-top: 4%;
     margin-bottom: 4%;
 }
+
+.ruru{
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .rururu{
+    max-width: 80%;
+ }
 
 .resolucao{
     width: 100vw;
@@ -148,6 +159,11 @@ button {
 
 /*DEIXANDO ADAPTADO PARA MOBILE*/
 @media screen and (max-width: 520px) {
+    body{
+        width: 100%;
+        height: 70%;
+    }
+
     .cabecalho{
         flex-direction: column;
     }
@@ -159,11 +175,24 @@ button {
     }
 
     .botoes{
+        margin-right: 10%;
+    }
+
+    .coluna{
         width: 100%;
+    }
+
+    .ruru{
+        top: 50%;
+        left: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    .rururu{
+        max-width: 80%;
+     }
 
     .resolucao{
         min-height: 100vh;

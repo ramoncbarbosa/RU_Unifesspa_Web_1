@@ -41,7 +41,7 @@ button {
     margin-right: 10px;
 }
 
-.container_botoes{
+.container_boto{
     width: 100%;
     padding: 0;
     display: flex;
@@ -96,6 +96,18 @@ button {
     margin-top: 4%;
     margin-bottom: 4%;
 }
+
+.ruru{
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .rururu{
+    max-width: 80%;
+ }
 
 .resolucao{
     width: 100vw;
@@ -158,7 +170,7 @@ button {
         justify-content: center;
     }
 
-    .botoes{
+    .container_boto{
         width: 100%;
         display: flex;
         justify-content: center;

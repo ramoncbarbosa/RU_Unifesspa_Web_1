@@ -6,31 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--BIBLIOTECA PARA ICONS-->
     <script src="https://kit.fontawesome.com/c0abf4e4aa.js" crossorigin="anonymous"></script>
-    <!--ARQUIVOS CSS DESSA PÁGINA-->
+
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/slides.css">
     <link rel="stylesheet" href="./styles/carrossel.css">
-
-    <!--ARQUIVO JS DESSA PÁGINA-->
-    <script src="./script/main.js"></script>
 </head>
 <body>
     <header class="cabecalho">
             <img class="logoru" src="./img/logo/RU-por-extenso-b.png" alt="" width=400 height=130>
-    
-            <!--USANDO JS NOS BOTÕES-->
-            <section class="botoes">
-                <div class="container_botoes">
-                    <a href="./cardapio.html">
-                        <button class="tecla tecla_cardapio">CARDÁPIO</button>
-                    </a>
-                    <a href="./resolucao.html">
-                        <button class="tecla tecla_resolucao">RESOLUCAÇÃO</button>
-                    </a>
-                    <a href="./login.html">
-                        <button class="tecla tecla_login">LOGIN</button>
-                    </a>
-                </div>
+            <nav class="botoes">
+                <ul>
+                  <li><a id="cardapio" href="./cardapio.html">CARDÁPIO</a></li>
+                  <li><a id="resolucao_header" href="./resolucao.html">RESOLUÇÃO</a></li>
+                  <li><a id="login_header" href="./login.html">LOGIN</a></li>
+                </ul>
+              </nav>
+            <section class="boto">
+                
             </section>
     </header>
     <main>
@@ -49,5 +41,6 @@
                 <p id="instagram">@XXXX</p>
             </div>
         </footer>
+        <script src="./script/main.js"></script>
 </body>
 </html>
