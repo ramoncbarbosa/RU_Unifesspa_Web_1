@@ -46,6 +46,7 @@
 #td5{
     vertical-align: middle;
     display: table-cell;
+    margin: ;
 }
 
 #p1,
@@ -65,7 +66,6 @@
 
 li {
     text-align:justify;
-    margin: 2%;
 }
 
 @media screen and (max-width: 720px) {
@@ -79,10 +79,5 @@ li {
     #tr2,
     #tr_terca_quinta{
         font-size: 10px;
-    }
-
-    li {
-        text-align:justify;
-        margin: 5%;
     }
 }

@@ -65,7 +65,6 @@
 
 li {
     text-align:justify;
-    margin: 2%;
 }
 
 @media screen and (max-width: 720px) {
@@ -81,8 +80,7 @@ li {
         font-size: 10px;
     }
 
-    li {
-        text-align:justify;
-        margin: 5%;
+    td{
+        text-align: lef;
     }
 }

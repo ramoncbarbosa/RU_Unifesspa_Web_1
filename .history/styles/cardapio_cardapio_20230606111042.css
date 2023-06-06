@@ -60,12 +60,11 @@
 #ul3,
 #ul4{
     text-align: left;
-    margin: 4%;
+    margin: -4%;
 }
 
 li {
     text-align:justify;
-    margin: 2%;
 }
 
 @media screen and (max-width: 720px) {
@@ -79,10 +78,5 @@ li {
     #tr2,
     #tr_terca_quinta{
         font-size: 10px;
-    }
-
-    li {
-        text-align:justify;
-        margin: 5%;
     }
 }

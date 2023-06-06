@@ -65,7 +65,7 @@
 
 li {
     text-align:justify;
-    margin: 2%;
+    margin: 4%;
 }
 
 @media screen and (max-width: 720px) {
@@ -79,10 +79,5 @@ li {
     #tr2,
     #tr_terca_quinta{
         font-size: 10px;
-    }
-
-    li {
-        text-align:justify;
-        margin: 5%;
     }
 }
