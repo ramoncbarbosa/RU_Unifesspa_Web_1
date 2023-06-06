@@ -66,9 +66,7 @@ form{
 
 #naoAluno{
     font-family: var(--font-dois);
-    font-size: 17px;
-    padding-top: 4rem;
-    padding-bottom: 0.5rem;
+    font-size: 10px;
 }
 
 #visitante{
@@ -76,6 +74,7 @@ form{
     border-radius: 40px;
     padding: 10%;
     background-color: var(--cor-um);
+
 }
 
 .rodape{

@@ -64,20 +64,6 @@ form{
     margin-bottom: 0.5rem;
 }
 
-#naoAluno{
-    font-family: var(--font-dois);
-    font-size: 17px;
-    padding-top: 4rem;
-    padding-bottom: 0.5rem;
-}
-
-#visitante{
-    width: 90px;
-    border-radius: 40px;
-    padding: 10%;
-    background-color: var(--cor-um);
-}
-
 .rodape{
     height: 120px;
     left: 0px;
@@ -153,6 +139,10 @@ form{
         width: 70px;
         border-radius: 30px;
         padding: 10%;
+    }
+
+    #esqueci{
+        float: 30px;
     }
 
     .rodape{
