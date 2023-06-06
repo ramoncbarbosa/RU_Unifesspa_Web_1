@@ -38,10 +38,14 @@
     /*
     background: var(--cor-dois);
     */
-    
+    /*
     background-color: var(--cor-seis);
+    
     border-radius: 40px;
+    
     box-shadow: 0px 1px 0px 2.5px var(--cor-cinco);
+    */
+
 }
 
 .img_logo{
@@ -84,13 +88,6 @@
         font-family: var(--font-dois);
         
     }
-
-#esqueci{
-    font-family: var(--font-um);
-    font-size: 10px;
-    margin-right: 50%;
-
-}
 
 .bem-vindo{
     font-family: var(--font-dois);

@@ -88,7 +88,7 @@
 #esqueci{
     font-family: var(--font-um);
     font-size: 10px;
-    margin-right: 50%;
+    right: auto;
 
 }
 
