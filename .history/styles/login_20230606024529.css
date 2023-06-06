@@ -103,31 +103,7 @@ form{
         align-items: center;
     }
 
-    .img_logo{
-        align-items: center;
-        display: flex;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-    
-    
-    #hh3{
-        font-family: var(--font-dois);
-        font-size: 15px;
-    }
-    
-    
-    #usr,
-    #pass{
-        margin: 0.5rem;
-        border-radius: 30px;
-        padding: 0.5%;
-    }
-    
-    #entrar{
-        border-radius: 30px;
-        padding: 10%;
-    }
+
 
     .rodape{
         width: 100%;
