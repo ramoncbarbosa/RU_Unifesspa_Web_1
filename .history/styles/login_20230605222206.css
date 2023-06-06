@@ -34,22 +34,14 @@
     /*
     background: var(--cor-dois);
     */
-    /*
     background-color: var(--cor-seis);
-    
     border-radius: 40px;
-    
     box-shadow: 0px 1px 0px 2.5px var(--cor-cinco);
-    */
 
 }
 
 .img_logo{
     margin-top: -5rem;
-}
-
-.container_container{
-
 }
 
 .container_container_container{
@@ -67,7 +59,7 @@
 .container_senha{
         border-radius: 40px;
         border: 0 none;
-        background: var(--cor-seis);
+        background: var();
         
         background: var(--cor-dois);
         

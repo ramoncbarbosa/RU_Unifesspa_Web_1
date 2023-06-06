@@ -31,16 +31,16 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    /*
+    
     background: var(--cor-dois);
-    */
+    
     /*
     background-color: var(--cor-seis);
-    
+    */
     border-radius: 40px;
     
     box-shadow: 0px 1px 0px 2.5px var(--cor-cinco);
-    */
+    
 
 }
 

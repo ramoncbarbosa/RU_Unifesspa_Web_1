@@ -34,13 +34,9 @@
     /*
     background: var(--cor-dois);
     */
-    /*
     background-color: var(--cor-seis);
-    
     border-radius: 40px;
-    
     box-shadow: 0px 1px 0px 2.5px var(--cor-cinco);
-    */
 
 }
 
@@ -69,7 +65,7 @@
         border: 0 none;
         background: var(--cor-seis);
         
-        background: var(--cor-dois);
+        background: var(--cor-cinto);
         
         outline: 0;
 
