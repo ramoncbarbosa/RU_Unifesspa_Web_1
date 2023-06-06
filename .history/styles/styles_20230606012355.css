@@ -37,13 +37,13 @@ section {
     margin-right: 10px;
 }
 
-.container_botoes{
-    width: 100%;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+button {
+    display: inline-flex;
+    margin-right: 10px;
 }
+
+
+
 
 .tecla_cardapio,
 .tecla_resolucao,

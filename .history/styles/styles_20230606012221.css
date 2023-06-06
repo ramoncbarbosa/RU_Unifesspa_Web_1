@@ -13,7 +13,7 @@ body{
 /*MEU HEADER*/
 .cabecalho {
     width:100%;
-    padding: 10px 5px;
+    padding: 10px px;
     height: auto;
     
     background: var(--cor-um);
@@ -24,7 +24,6 @@ body{
 }
 
 .logoru{
-    width: 50%;
     margin-right: 50%;
 }
 
@@ -33,6 +32,9 @@ section {
     text-align: right;
     margin-top: 10px;
     margin-left: auto;
+}
+
+button {
     display: inline-flex;
     margin-right: 10px;
 }
@@ -44,6 +46,7 @@ section {
     justify-content: center;
     align-items: center;
 }
+
 
 .tecla_cardapio,
 .tecla_resolucao,

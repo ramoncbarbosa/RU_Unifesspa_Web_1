@@ -35,8 +35,15 @@ section {
     margin-left: auto;
     display: inline-flex;
     margin-right: 10px;
+    margin-top: 80px;
 }
 
+/*
+button {
+    display: inline-flex;
+    margin-right: 10px;
+}
+*/
 .container_botoes{
     width: 100%;
     padding: 0;
@@ -44,6 +51,7 @@ section {
     justify-content: center;
     align-items: center;
 }
+
 
 .tecla_cardapio,
 .tecla_resolucao,

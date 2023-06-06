@@ -24,7 +24,7 @@ body{
 }
 
 .logoru{
-    width: 50%;
+    width: ;
     margin-right: 50%;
 }
 
@@ -33,6 +33,9 @@ section {
     text-align: right;
     margin-top: 10px;
     margin-left: auto;
+}
+
+button {
     display: inline-flex;
     margin-right: 10px;
 }
@@ -44,6 +47,7 @@ section {
     justify-content: center;
     align-items: center;
 }
+
 
 .tecla_cardapio,
 .tecla_resolucao,

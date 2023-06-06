@@ -45,7 +45,6 @@ section {
     align-items: center;
 }
 
-.tecla_cardapio,
 .tecla_resolucao,
 .tecla_login{
     font-family: var(--font-dois);

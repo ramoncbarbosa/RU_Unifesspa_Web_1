@@ -31,11 +31,18 @@ body{
 section {
     flex: 1;
     text-align: right;
-    margin-top: 10px;
+    margin-top: -20%;
     margin-left: auto;
     display: inline-flex;
     margin-right: 10px;
 }
+
+/*
+button {
+    display: inline-flex;
+    margin-right: 10px;
+}
+*/
 
 .container_botoes{
     width: 100%;
@@ -44,6 +51,7 @@ section {
     justify-content: center;
     align-items: center;
 }
+
 
 .tecla_cardapio,
 .tecla_resolucao,
