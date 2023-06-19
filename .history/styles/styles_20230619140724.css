@@ -61,10 +61,7 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr;
         height: 127px;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        margin-top: 0.5rem;
-        margin-bottom: 2rem;
+        margin: 0.5rem;
         gap: 0.25rem;
     }
 
@@ -82,6 +79,7 @@ body{
     .cardapio{
         border: 1px solid #d9d9d9;
         border-radius: 8%;
+        margin: 2rem;
     }
 
     .img_login{
