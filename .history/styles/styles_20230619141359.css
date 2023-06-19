@@ -94,12 +94,9 @@ body{
 
     }
 
-    .contatos_filhos{
-        margin-left: 2rem;
-    }
+    .contatos
 
     .meios{
-        font-size: 12px;
         text-decoration: none;
     }
 

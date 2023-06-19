@@ -91,16 +91,7 @@ body{
     .contatos{
         height: 92px;
         background-color: #D9D9D9;
-
-    }
-
-    .contatos_filhos{
-        margin-left: 2rem;
-    }
-
-    .meios{
-        font-size: 12px;
-        text-decoration: none;
+        
     }
 
     .gov{
