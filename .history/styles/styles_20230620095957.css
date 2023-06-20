@@ -24,23 +24,13 @@ body{
 @media screen and (min-width: 390px) and (max-width: 844px){
     
     .cabecalho{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
         background-color: #2CBC63;
         width: 100vw;
         height: 133px;
         text-align: center;
         font-family: "open-sans";
         color: #333333;
-    }
-
-    .texto_cabecalho{
-        font-family: 'Open Sans';
-        font-weight: 600;
-        font-size: 20px;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        margin-top: 10px;
     }
 
     .logo{
@@ -73,6 +63,8 @@ body{
         height: 127px;
         left: 19px;
         top: 602px;
+        font-family: 'Open Sans'
+        font-size: 20px;
     }
 
     .cliqueaqui{

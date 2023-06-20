@@ -24,8 +24,7 @@ body{
 @media screen and (min-width: 390px) and (max-width: 844px){
     
     .cabecalho{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
         background-color: #2CBC63;
         width: 100vw;
         height: 133px;
@@ -38,9 +37,8 @@ body{
         font-family: 'Open Sans';
         font-weight: 600;
         font-size: 20px;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        margin-top: 10px;
+        display: flex;
+        text-align: center;
     }
 
     .logo{
