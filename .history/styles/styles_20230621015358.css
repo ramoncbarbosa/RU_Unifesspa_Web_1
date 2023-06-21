@@ -65,19 +65,11 @@ body{
     }
 
     .txt{
-        grid-row-start: 1;
-        grid-row-end: 1;
+
     }
 
     .texto{
-        
-    }
 
-
-    .container_blocos{
-        grid-template-columns: 1fr 1fr;
-        grid-row-start: 1;
-        grid-row-end: 1;
     }
 }
 
