@@ -93,8 +93,7 @@ body{
 */
 
     .login,
-    .cardapio{
-        display: grid;
+    .{
         place-items: center;
     }
     .img_login{
