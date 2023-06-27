@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -192,6 +191,8 @@ body{
         margin-left: 2.35rem;
         margin-top: 1.25rem;
     }
+
+    .com
 
     .rodape{
         width: 100%;

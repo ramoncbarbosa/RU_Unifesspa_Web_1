@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -34,7 +33,7 @@ body{
 
     .texto_cabecalho{
         font-family: 'Open Sans';
-        font-weight: 600;
+        font-weight: 400;
         font-size: 20px;
         grid-column-start: 2;
         grid-column-end: 2;
@@ -106,7 +105,7 @@ body{
     .texto_cabecalho{
         font-family: 'Open Sans';
         font-weight: 600;
-        font-size: 20px;
+        font-size: 26px;
         grid-column-start: 2;
         grid-column-end: 2;
         margin-top: 4px;
@@ -168,10 +167,10 @@ body{
         border-radius: 8%;
     }
 
-    .login > img {
-        display: flex;
-        text-align: center;
-        align-items: center;
+    .img_login{
+        max-width: 50%;
+        width: 80vw;
+        color: #FFFFFF;
     }
 
     .cardapio{
@@ -181,16 +180,7 @@ body{
     }
 
     .img_login{
-        width: 50%;
-        margin-left: 2.35rem;
-        margin-top: 1.25rem;
-    }
 
-
-    .img_cardapio{
-        width: 50%;
-        margin-left: 2.35rem;
-        margin-top: 1.25rem;
     }
 
     .rodape{

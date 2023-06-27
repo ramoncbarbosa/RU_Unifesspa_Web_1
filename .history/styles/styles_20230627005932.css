@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -169,9 +168,13 @@ body{
     }
 
     .login > img {
-        display: flex;
-        text-align: center;
-        align-items: center;
+        
+    }
+
+    .img_login{
+        max-width: 50%;
+        width: 80vw;
+        color: #FFFFFF;
     }
 
     .cardapio{
@@ -181,16 +184,7 @@ body{
     }
 
     .img_login{
-        width: 50%;
-        margin-left: 2.35rem;
-        margin-top: 1.25rem;
-    }
 
-
-    .img_cardapio{
-        width: 50%;
-        margin-left: 2.35rem;
-        margin-top: 1.25rem;
     }
 
     .rodape{

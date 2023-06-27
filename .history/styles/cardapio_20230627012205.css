@@ -1,0 +1,33 @@
+.mae{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.dia{
+
+}
+
+.segunda{
+
+}
+
+.terca{
+
+}
+
+.quarta{
+
+}
+
+.quinta{
+
+}
+
+.sexta{
+    
+}
