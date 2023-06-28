@@ -116,7 +116,7 @@ body{
 }
 
 
-/* MOBILE */
-@media screen and (max-width: 767PX){
+/* TABLET */
+@media screen and (min-width: ) and (max-width: ){
     
 }
