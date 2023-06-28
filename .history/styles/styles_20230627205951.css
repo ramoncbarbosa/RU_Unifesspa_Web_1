@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-um: #2CBC63;
+    --cor-dois: #D9D9D9;
+    --cor-tres: #FFFFFF;
+    --cor-quatro: #0042B1;
+}
+
+body{
+    background-color: var(--cor-tres);
+}
+
+.cabecalho{
+    background-color: var(--cor-um);
+    display: grid;
+    place-items: center;
+}
+
+.navegacao{
+    background-color: var(--cor-dois);
+    display: flex;
+    jusi
+    gap: 5rem;
+}
+
+.rumaraba{
+
+}
+
+.caixa_texto{
+
+}
+
+.rodape{
+
+}
+
+.contatos{
+
+}
+
+.img-do-rodape{
+
+}
