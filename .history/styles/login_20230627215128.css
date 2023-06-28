@@ -16,7 +16,6 @@ body{
     width: 100%;
 }
 
-
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
     .cabecalho{
@@ -24,56 +23,26 @@ body{
         display: grid;
         place-items: center;
     }
-    
-    .navegacao{
-        background-color: var(--cor-dois);
-        color: #000000;
-        display: flex;
-        justify-content: center;
-        gap: 5rem;
-        text-decoration: none;
-        height: 2.15rem;
-    }
-    
-    
+
+
+
+
     .container{
-        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    
-    .rumaraba{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 2rem;
+
+    .alunos{
+
     }
-    
-    .rumaraba > img {
-        width: 50%;
-        height: 50%;
+
+
+    .visitante{
+
     }
-    
-    .rumaraba > p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0.5rem;
-        max-width: 50%;
-    }
-    
-    .rumaraba > p{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0.5rem;
-        max-width: 50%;
-    }
-    
-    .link-do-edital{
-        text-decoration: none;
-    }
-    
-    
+
+
+
     .rodape{
         width: 100%;
         padding-top: 4rem;
@@ -115,8 +84,6 @@ body{
     
 }
 
-
-/* TABLET */
-@media screen and (min-width: ) and (max-width: ){
+@media screen and  {
     
 }
