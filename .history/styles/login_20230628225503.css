@@ -30,7 +30,7 @@ body{
         place-items: center;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        width: 100%;
+
     }
 
     .aluno{
@@ -38,19 +38,19 @@ body{
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 1;
-        display: grid;
         place-content: center;
-        max-width: 100%;
+        width: 50%;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
 
     .img_aluno {
         display: flex;
-        justify-content: stretch;
-        width: 5rem;
-        margin-left: 3rem;
+        justify-content: center;
+        text-align: center;
         margin-bottom: 2rem;
+        max-width: 40%;
+        max-height: 20%;
     }
 
     .visitante{
@@ -58,7 +58,6 @@ body{
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 2;
-        display: grid;
         place-content: center;
         width: 50%;
     }
@@ -66,10 +65,17 @@ body{
     
     .img_visitante{
         display: flex;
-        justify-content: stretch;
-        width: 5rem;
-        margin-left: 3rem;
+        justify-content: center;
+        text-align: center;
         margin-bottom: 2rem;
+        max-width: 40%;
+        max-height: 20%;
+        margin-left: 8%;
+    }
+
+
+    .visitante{
+
     }
 
     .form_aluno,
@@ -84,7 +90,7 @@ body{
         background-color: var(--cor-dois);
         border: none;
         border-radius: 12px;
-        padding: 0.50rem;
+        padding: 0.25rem;
         margin-bottom: 1rem;
     }
 

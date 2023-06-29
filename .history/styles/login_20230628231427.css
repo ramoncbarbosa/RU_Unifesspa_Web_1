@@ -84,7 +84,7 @@ body{
         background-color: var(--cor-dois);
         border: none;
         border-radius: 12px;
-        padding: 0.50rem;
+        padding: 0.rem;
         margin-bottom: 1rem;
     }
 
