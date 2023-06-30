@@ -194,36 +194,36 @@ body{
    /* CARDAPIO */
 
    .cardapio{
-        display: grid;
-        font-family: 'Arial';
-        width: 80vw;
-        margin-left: 5rem;
+    display: grid;
+    font-family: 'Arial';
+    width: 80vw;
+    margin-left: 2.25rem;
 }
 
-    .container{
-        display: grid;
-        place-items: center;
-        border: 0.063rem solid var(--cor-dois);
-        border-radius: 0.75rem;
-        padding: 0.625rem;
-        margin-top: 0.625rem;
-        margin-bottom: 0.625rem;
-        
-    }
+.container{
+    display: grid;
+    place-items: center;
+    border: 0.063rem solid var(--cor-dois);
+    border-radius: 0.75rem;
+    padding: 0.625rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    
+}
 
 
-    .menu-segunda,
-    .menu-terca,
-    .menu-quarta,
-    .menu-quinta,
-    .menu-sexta{
-        border: 0.063rem solid var(--cor-dois);
-        border-radius: 0.75rem;
-        padding: 1.5rem;
-        margin-top: 0.625rem;
-        margin-bottom: 0.625rem;
-        margin-right: 0.375rem;
-    }
+.menu-segunda,
+.menu-terca,
+.menu-quarta,
+.menu-quinta,
+.menu-sexta{
+    border: 0.063rem solid var(--cor-dois);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    margin-right: 0.375rem;
+}
 
    /* FIM DO CARDAPIO */
 

@@ -194,10 +194,10 @@ body{
    /* CARDAPIO */
 
    .cardapio{
-        display: grid;
-        font-family: 'Arial';
-        width: 80vw;
-        margin-left: 5rem;
+    display: grid;
+    font-family: 'Arial';
+    width: 80vw;
+    margin-left: 2.25rem;
 }
 
     .container{
