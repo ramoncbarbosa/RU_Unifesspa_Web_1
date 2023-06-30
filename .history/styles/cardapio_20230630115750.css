@@ -31,20 +31,7 @@ body{
 
     .cardapio{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        font-family: 'Arial';
-    }
-
-    .container{
-        display: grid;
-        place-items: center;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        border: 1px solid var(--cor-dois);
-        border-radius: 12px;
-        padding: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .menu {
@@ -55,12 +42,11 @@ body{
         padding: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
+        justify-content: center;
     }
 
     h2 {
         margin-top: 0;
-        display: grid;
-        place-items: center;
     }
 
     ul {

@@ -32,7 +32,6 @@ body{
     .cardapio{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        font-family: 'Arial';
     }
 
     .container{
