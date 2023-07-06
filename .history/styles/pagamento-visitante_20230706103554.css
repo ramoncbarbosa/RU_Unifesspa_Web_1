@@ -391,10 +391,10 @@ body{
 
     .pagando{
         background: var(--cor-um);
-        margin-top: 0.75rem;
+        margin-top: 0.85rem;
         margin-right: 0.5rem;
         padding: 0.1rem;
-        max-width: 20vw;
+        max-width: 18vw;
         border-radius: 0.75rem;
         border: solid var(--cor-um) 0.75rem;
         cursor: pointer;
