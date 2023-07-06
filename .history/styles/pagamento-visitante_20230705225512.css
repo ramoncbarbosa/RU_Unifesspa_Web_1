@@ -109,11 +109,7 @@ body{
         border-radius: 0.95rem;
     }
 
-    .copiar_colar{
-        padding-top: 1rem;
-    }
-
-    .entradas_pix {
+    .entradas {
         padding: 0.813rem 1.563rem;
         text-align: center;
         border: 0.125rem solid var(--cor-dois);
