@@ -172,6 +172,7 @@ body{
         background-color: var(--cor-um);
         display: grid;
         place-items: center;
+        box-sizing: border-box;
     }
 
 
@@ -331,7 +332,7 @@ body{
     /*------------------------------------------*/
 
     .container{
-        max-width: 900%;
+        max-width: 90%;
         height: 50%;
         margin: 5rem auto;
         padding: 2.188rem 2.188rem 2.188rem 4.375rem;
