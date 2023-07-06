@@ -1,3 +1,0 @@
-alert('Olá, Visitante');
-
-querySe
