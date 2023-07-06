@@ -337,29 +337,19 @@ body{
         padding: 2.188rem 2.188rem 2.188rem 4.375rem;
         border-radius: 0.313rem;
         display: grid;
-        place-items: center;
-        justify-content: center;
-        align-items: center;
         grid-template-columns: repeat(3, fr);
         grid-template-rows: repeat(3, fr);
         background: var(--cor-dois);
+        gap: 2rem;
     }
 
     .pagamento_cartao{
         display: grid;
-        place-items: center;
-
-
-        display: grid;
-        place-items: center;
-        align-items: center;
-        justify-items: center;
-
-
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
+        margin-right: 2rem;
     }
 
     .cartao_detalhes{
@@ -412,12 +402,13 @@ body{
         grid-row-start: 2;
         grid-row-end: 3;
         padding-bottom: 1.25rem;
-        margin-right: 1.2rem;
+        padding-left: 1rem;
+        margin-right: 5rem;
     }
 
     .pix_titular{
         margin-top: 2.5rem;
-        margin-left: 1.2rem;   
+        margin-left: 1rem;
         margin-bottom: 0.45rem;
         color: var(--cor-cinco);
     }

@@ -412,12 +412,11 @@ body{
         grid-row-start: 2;
         grid-row-end: 3;
         padding-bottom: 1.25rem;
-        margin-right: 1.2rem;
+        margin-right: 5rem;
     }
 
     .pix_titular{
         margin-top: 2.5rem;
-        margin-left: 1.2rem;   
         margin-bottom: 0.45rem;
         color: var(--cor-cinco);
     }
