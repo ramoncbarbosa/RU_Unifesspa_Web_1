@@ -31,33 +31,95 @@ body{
 
     /*------------------------------------------*/
 
-    .pix{
+    .container{
         max-width: 50%;
         height: 50%;
         margin: 5rem auto;
-        padding: 2.188rem 4.375rem;
+        padding: 2.188rem 2.188rem 2.188rem 4.375rem;
         border-radius: 0.313rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(6, fr);
+        grid-template-rows: repeat(3, fr);
         background: var(--cor-dois);
         gap: 2rem;
     }
 
+    .pagamento_cartao{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .cartao_detalhes{
+        margin-bottom: 0.75rem;
+    }
+
+    .cartao_data{
+        margin-bottom: 0.75rem;
+    }
+
+    .cartao_cvc{
+
+    }
+
+    .cartao_titular{
+        margin-bottom: 2.5rem;
+        color: var(--cor-cinco);
+    }
+
+    .entradas {
+        padding: 0.813rem 1.563rem;
+        text-align: center;
+        border: 0.125rem solid var(--cor-dois);
+        border-radius: 0.313rem;
+        font-size: 1rem;
+        color: var(--cor-cinco);
+    }
+
+    .pagando{
+        background: var(--cor-um);
+        margin-top: 0.75rem;
+        margin-left: 5rem;
+        padding: 0.1rem;
+        max-width: 6vw;
+        border-radius: 0.75rem;
+        border: solid var(--cor-um) 0.75rem;
+        cursor: pointer;
+    }
+
+    .btn{
+        text-decoration: none;
+        cursor: pointer;
+        color: var(--cor-tres);
+    }
+
+    .pix{
+        display: grid;
+        grid-column-start: 4;
+        grid-column-end: 6;
+        padding-bottom: 1.25rem;
+        padding-left: 4rem;
+        margin-right: 5rem;
+    }
 
     .pix_titular{
+        margin-bottom: 2.5rem;
         color: var(--cor-cinco);
-        text-align: center;
     }
 
     .pagamento_pix{
+        padding-top: 0.15rem;
         max-width: 100%;
         max-height: 100%;
         border-radius: 0.95rem;
     }
 
+    .copiar_colar{
+        padding-top: 1rem;
+    }
+
     .entradas_pix {
+        padding: 0.813rem 1.563rem;
         text-align: center;
         border: 0.125rem solid var(--cor-dois);
         border-radius: 0.313rem;
@@ -126,6 +188,26 @@ body{
         grid-template-rows: repeat(3, fr);
         background: var(--cor-dois);
         gap: 2rem;
+    }
+
+    .pagamento_cartao{
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .cartao_detalhes{
+        margin-bottom: 0.75rem;
+    }
+
+    .cartao_data{
+        margin-bottom: 0.75rem;
+    }
+
+    .cartao_cvc{
+
     }
 
     .cartao_titular{
@@ -255,29 +337,19 @@ body{
         padding: 2.188rem 2.188rem 2.188rem 4.375rem;
         border-radius: 0.313rem;
         display: grid;
-        place-items: center;
-        justify-content: center;
-        align-items: center;
         grid-template-columns: repeat(3, fr);
         grid-template-rows: repeat(3, fr);
         background: var(--cor-dois);
+        gap: 2rem;
     }
 
     .pagamento_cartao{
         display: grid;
-        place-items: center;
-        margin-right: 2rem;
-
-        display: grid;
-        place-items: center;
-        align-items: center;
-        justify-items: center;
-
-
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
+        margin-left: 2rem;
     }
 
     .cartao_detalhes{
@@ -309,9 +381,9 @@ body{
     .pagando{
         background: var(--cor-um);
         margin-top: 0.75rem;
-        margin-right: 0.5rem;
+        margin-left: 5rem;
         padding: 0.1rem;
-        max-width: 18vw;
+        max-width: 11vw;
         border-radius: 0.75rem;
         border: solid var(--cor-um) 0.75rem;
         cursor: pointer;
@@ -330,12 +402,13 @@ body{
         grid-row-start: 2;
         grid-row-end: 3;
         padding-bottom: 1.25rem;
-        margin-right: 1.2rem;
+        padding-left: 1rem;
+        margin-right: 5rem;
     }
 
     .pix_titular{
         margin-top: 2.5rem;
-        margin-left: 1.2rem;   
+        margin-left: 1rem;
         margin-bottom: 0.45rem;
         color: var(--cor-cinco);
     }
