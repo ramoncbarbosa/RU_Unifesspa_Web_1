@@ -369,16 +369,19 @@ body{
         height: 4rem;
         padding: 0 2rem;
         column-gap: 2rem;
-        align-items: center;
+        justify-content: center;
     }
     
     .informacao{
         grid-column-start: 1;
         grid-column-end: 1;
+        /* padding-left: 4rem; */
     }
     
     .brasil {
         grid-column-start: 3;
-        grid-column-end: 3;    
+        grid-column-end: 3;
+        /* padding-left: 20rem; */
+    
     }
 }

@@ -26,7 +26,6 @@ body{
         display: grid;
         place-items: center;
         max-width: 100vw;
-        max-height: 100vh;
     }
 
     
@@ -266,11 +265,15 @@ body{
 
 /* MOBILE */
 @media screen and (max-width: 767PX){
+    body{
+        width: 100vw;
+    }
     
     .cabecalho{
         background-color: var(--cor-um);
         display: grid;
         place-items: center;
+        width: 100vw;
     }
 
     
@@ -365,20 +368,20 @@ body{
     .img-do-rodape{
         background-color: var(--cor-quatro);
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        height: 4rem;
-        padding: 0 2rem;
-        column-gap: 2rem;
-        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 3.5rem;
     }
     
     .informacao{
         grid-column-start: 1;
         grid-column-end: 1;
+        padding-left: 4rem;
     }
     
     .brasil {
         grid-column-start: 3;
-        grid-column-end: 3;    
+        grid-column-end: 3;
+        padding-left: 20rem;
+    
     }
 }
