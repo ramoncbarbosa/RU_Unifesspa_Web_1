@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-um: #2CBC63;
+    --cor-dois: #D9D9D9;
+    --cor-tres: #FFFFFF;
+    --cor-quatro: #0042B1;
+    --cor-cinco: #000000;
+}
+
+body{
+    background-color: var(--cor-tres);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Arial';
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1280px) {
+    .cabecalho{
+        background-color: var(--cor-um);
+        display: grid;
+        place-items: center;
+    }
+
+    /*---------------------------------------------*/
+
+    .content{
+        display: flex;
+        box-sizing: content-box;
+        /* width: 100%; */
+        max-width: 60vw;
+
+        margin: 5rem auto;
+        padding: 4.375rem;
+
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 3.125rem;
+        
+        background: var(--cor-dois);
+        
+        border-radius: 0.313rem;
+    }
+    
+    .formulario{
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 0.625rem;
+        column-gap: 0.938rem;
+    }
+    
+    .pay{
+        display: grid;
+        grid-template-columns: 1.25rem auto;
+        column-gap: 0.625rem;
+        align-items: center;
+    }
+    
+    .checkbox{
+        width: 10.938rem;
+    }
+    
+    input{
+        width: 6.25rem;
+    }
+    
+    .btn{
+        text-decoration: none;
+        cursor: pointer;
+        color: var(--cor-tres);
+        border-radius: 0.625rem;
+        padding: 0.625rem 0.938rem;
+        background-color: var(--cor-um);
+    }
+
+    .link_cardapio{
+        text-decoration: none;
+    }
+
+    /*---------------------------------------------*/
+
+    .rodape{
+        width: 100vw;
+        padding-top: 12rem;
+    }
+    
+    .contatos{
+        background-color: var(--cor-dois);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 3rem;
+        font-family: 'Arial';
+    }
+    
+    .img-do-rodape{
+        background-color: var(--cor-quatro);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 4rem;
+        padding: 0 2rem;
+        column-gap: 2rem;
+        align-items: center;
+    }
+    
+    .informacao{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    .brasil {
+        grid-column-start: 3;
+        grid-column-end: 3;    
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 767PX){
+
+}

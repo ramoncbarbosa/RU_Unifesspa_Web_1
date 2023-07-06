@@ -149,6 +149,10 @@ body{
         justify-content: center;
     }
 
+    .cabecalho > img {
+        max-width: ;
+    }
+
     .container{
         display: grid;
         place-items: center;

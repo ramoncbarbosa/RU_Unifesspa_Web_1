@@ -168,7 +168,6 @@ body{
         grid-template-columns: auto auto;
         row-gap: 0.625rem;
         column-gap: 0.938rem;
-        font-size: 1.25rem;
     }
     
     .pay{
@@ -196,7 +195,7 @@ body{
     }
 
     p{
-        font-size: 1.25rem;
+        font-size: 0.75rem;
     }
 
     .link_cardapio{

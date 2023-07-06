@@ -146,7 +146,6 @@ body{
         background-color: var(--cor-um);
         display: flex;
         align-items: center;
-        justify-content: center;
     }
 
     .container{
