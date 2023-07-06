@@ -1,2 +1,0 @@
-alert('Olá, Visitante');
-
