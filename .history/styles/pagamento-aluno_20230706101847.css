@@ -391,9 +391,9 @@ body{
     .pagando{
         background: var(--cor-um);
         margin-top: 0.75rem;
-        margin-right: 0.5rem;
+        margin-right: 1.75rem;
         padding: 0.1rem;
-        max-width: 18vw;
+        max-width: 11vw;
         border-radius: 0.75rem;
         border: solid var(--cor-um) 0.75rem;
         cursor: pointer;
