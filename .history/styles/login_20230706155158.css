@@ -153,14 +153,16 @@ body{
         place-items: center;
         align-items: center;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 40vh 40vh;
         width: 100vw;
-        height: 100vh;
+        height: 0vh;
     }
 
     .aluno{
         grid-column-start: 2;
         grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
         display: grid;
         place-content: center;
         max-width: 100%;
@@ -179,6 +181,8 @@ body{
     .visitante{
         grid-column-start: 2;
         grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
         display: grid;
         place-content: center;
         width: 50%;
