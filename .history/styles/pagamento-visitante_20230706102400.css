@@ -336,6 +336,7 @@ body{
 
     .container{
         max-width: 90%;
+        max-width: 50vh;
         height: 50%;
         margin: 5rem auto;
         padding: 2.188rem 2.188rem 2.188rem 4.375rem;

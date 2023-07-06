@@ -322,9 +322,7 @@ body{
 /* MOBILE */
 @media screen and (max-width: 767PX){
 
-    body{
-       box-sizing: border-box;
-    }
+    
 
     .cabecalho{
         background-color: var(--cor-um);
@@ -353,10 +351,13 @@ body{
         display: grid;
         place-items: center;
         margin-right: 2rem;
+
         display: grid;
         place-items: center;
         align-items: center;
         justify-items: center;
+
+
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;

@@ -323,7 +323,7 @@ body{
 @media screen and (max-width: 767PX){
 
     body{
-       box-sizing: border-box;
+       borde
     }
 
     .cabecalho{
@@ -335,7 +335,7 @@ body{
     /*------------------------------------------*/
 
     .container{
-        max-width: 90%;
+        max-width: 900%;
         height: 50%;
         margin: 5rem auto;
         padding: 2.188rem 2.188rem 2.188rem 4.375rem;
@@ -353,10 +353,13 @@ body{
         display: grid;
         place-items: center;
         margin-right: 2rem;
+
         display: grid;
         place-items: center;
         align-items: center;
         justify-items: center;
+
+
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
