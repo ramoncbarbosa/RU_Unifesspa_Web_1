@@ -205,7 +205,7 @@ body{
 
     .cartao_titular{
         margin-bottom: 2.5rem;
-        color: var(--cor-cinco);
+        color: #0d3c61;
     }
 
     .entradas {
@@ -222,7 +222,7 @@ body{
         margin-top: 0.75rem;
         margin-left: 5rem;
         padding: 0.1rem;
-        max-width: 11vw;
+        max-width: 6vw;
         border-radius: 0.75rem;
         border: solid var(--cor-um) 0.75rem;
         cursor: pointer;
@@ -243,13 +243,6 @@ body{
         padding-bottom: 1.25rem;
         padding-left: 1rem;
         margin-right: 5rem;
-    }
-
-    .pix_titular{
-        margin-top: 2.5rem;
-        margin-left: 1rem;
-        margin-bottom: 0.45rem;
-        color: var(--cor-cinco);
     }
 
     .pagamento_pix{
