@@ -64,7 +64,7 @@ body{
 
     .cartao_titular{
         margin-bottom: 2.5rem;
-        color: var(--cor-cinco);
+        color: #0d3c61;
     }
 
     .entradas {
@@ -100,11 +100,6 @@ body{
         padding-bottom: 1.25rem;
         padding-left: 4rem;
         margin-right: 5rem;
-    }
-
-    .pix_titular{
-        margin-bottom: 2.5rem;
-        color: var(--cor-cinco);
     }
 
     .pagamento_pix{

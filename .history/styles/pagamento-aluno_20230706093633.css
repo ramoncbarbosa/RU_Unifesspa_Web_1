@@ -29,16 +29,16 @@ body{
         max-width: 100%;
     }
 
-    /*------------------------------------------*/
+ /*------------------------------------------*/
 
     .container{
-        max-width: 50%;
+        max-width: 60%;
         height: 50%;
         margin: 5rem auto;
         padding: 2.188rem 2.188rem 2.188rem 4.375rem;
         border-radius: 0.313rem;
         display: grid;
-        grid-template-columns: repeat(6, fr);
+        grid-template-columns: repeat(3, fr);
         grid-template-rows: repeat(3, fr);
         background: var(--cor-dois);
         gap: 2rem;
@@ -46,8 +46,8 @@ body{
 
     .pagamento_cartao{
         display: grid;
-        grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 2;
     }
 
     .cartao_detalhes{
@@ -81,7 +81,7 @@ body{
         margin-top: 0.75rem;
         margin-left: 5rem;
         padding: 0.1rem;
-        max-width: 6vw;
+        max-width: 11vw;
         border-radius: 0.75rem;
         border: solid var(--cor-um) 0.75rem;
         cursor: pointer;
@@ -95,15 +95,19 @@ body{
 
     .pix{
         display: grid;
-        grid-column-start: 4;
-        grid-column-end: 6;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
         padding-bottom: 1.25rem;
-        padding-left: 4rem;
+        padding-left: 1rem;
         margin-right: 5rem;
     }
 
     .pix_titular{
-        margin-bottom: 2.5rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+        margin-bottom: 0.45rem;
         color: var(--cor-cinco);
     }
 
