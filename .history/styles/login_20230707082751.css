@@ -241,13 +241,8 @@ body{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 8rem;
+        gap: 1rem;
         height: 3rem;
-        font-family: 'Arial';
-    }
-
-    .contatos > a > img {
-        width: 5vw;
     }
     
     .img-do-rodape{
@@ -370,13 +365,8 @@ body{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 4rem;
+        gap: 1rem;
         height: 3rem;
-        font-family: 'Arial';
-    }
-
-    .contatos > a > img {
-        width: 10vw;
     }
     
     .img-do-rodape{
