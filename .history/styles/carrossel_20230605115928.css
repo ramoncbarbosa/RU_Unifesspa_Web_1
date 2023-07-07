@@ -1,0 +1,39 @@
+@import url(./reset.css);
+
+.carrossel {
+    width: 50%;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  
+  .slide img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .prev-button,
+  .next-button {
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
