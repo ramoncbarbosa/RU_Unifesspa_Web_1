@@ -254,7 +254,7 @@ body{
     }
 
     .btn_cardapio{
-        width: 8vw;
+        width: 4vw;
         columns: var(--cor-cinco);
     }
 
@@ -346,23 +346,6 @@ body{
         margin-top: 0.625rem;
         margin-bottom: 0.625rem;
         margin-right: 0.375rem;
-    }
-
-    .cardapio_btn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .btn_cardapio{
-        background-color: var(--cor-tres);
-        border: solid var(--cor-cinco) 0.1rem;
-        border-radius: 8rem;
-    }
-
-    .btn_cardapio{
-        width: 14vw;
-        columns: var(--cor-cinco);
     }
 
        /* FIM DO CARDAPIO */

@@ -25,6 +25,8 @@ body{
         place-items: center;
     }
 
+
+
     /* CARDAPIO */
 
     .cardapio{
@@ -115,22 +117,21 @@ body{
         margin-bottom: 0.625rem;
     }
 
-    .cardapio_btn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .btn{
+        max-width: 5vw;
+        border: solid var(--cor-dois);
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 5;
     }
 
-    .btn_cardapio{
-        background-color: var(--cor-tres);
-        border: solid var(--cor-cinco) 0.1rem;
-        border-radius: 8rem;
+    .redirecionamento_compra{
+        
     }
 
-    .btn_cardapio{
-        width: 4vw;
-        columns: var(--cor-cinco);
-    }
+
+
 
     h2 {
         margin-top: 0;
@@ -241,23 +242,6 @@ body{
         margin-right: 0.375rem;
     }
 
-    .cardapio_btn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .btn_cardapio{
-        background-color: var(--cor-tres);
-        border: solid var(--cor-cinco) 0.1rem;
-        border-radius: 8rem;
-    }
-
-    .btn_cardapio{
-        width: 8vw;
-        columns: var(--cor-cinco);
-    }
-
    /* FIM DO CARDAPIO */
 
 
@@ -346,23 +330,6 @@ body{
         margin-top: 0.625rem;
         margin-bottom: 0.625rem;
         margin-right: 0.375rem;
-    }
-
-    .cardapio_btn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .btn_cardapio{
-        background-color: var(--cor-tres);
-        border: solid var(--cor-cinco) 0.1rem;
-        border-radius: 8rem;
-    }
-
-    .btn_cardapio{
-        width: 14vw;
-        columns: var(--cor-cinco);
     }
 
        /* FIM DO CARDAPIO */

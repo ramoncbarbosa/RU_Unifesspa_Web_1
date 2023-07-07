@@ -361,7 +361,7 @@ body{
     }
 
     .btn_cardapio{
-        width: 14vw;
+        width: 8vw;
         columns: var(--cor-cinco);
     }
 
