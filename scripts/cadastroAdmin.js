@@ -6,7 +6,7 @@ function newUser(userName, userLogin, userPassword){
         userLogin:userLogin,
         userPassword:hashedPassword,
         salt:salt,
-        userSubsidio:true
+        userSubsidio:false
     };
     return objUser;
 }
