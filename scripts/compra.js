@@ -1,7 +1,7 @@
 const userSubsidio = document.querySelector('#userSubsidio');
 const userPrice = document.querySelector('#userPrice');
 const userQuantity = document.querySelector('#userQuantity');
-user = JSON.parse(localStorage.getItem(localStorage.getItem('currentUser')));
+user = JSON.parse(localStorage.getItem(sessionStorage.getItem('currentUser')));
 
 if(user.userSubsidio){
     userSubsidio.textContent = 'Sim';
