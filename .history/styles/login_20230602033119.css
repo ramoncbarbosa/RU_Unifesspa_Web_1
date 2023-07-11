@@ -1,0 +1,12 @@
+@import url(./colors_fonts.css);
+@import url(./reset.css);
+
+.cabecalho {
+    width:100%;
+    margin: auto auto;
+    padding: 10px 5px;
+    height: 113px;
+    left: 0px;
+    top: 0px;
+    background: var(--cor-um);
+}

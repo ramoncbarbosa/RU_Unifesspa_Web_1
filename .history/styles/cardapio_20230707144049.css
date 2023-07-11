@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-um: #2CBC63;
+    --cor-dois: #D9D9D9;
+    --cor-tres: #FFFFFF;
+    --cor-quatro: #0042B1;
+    --cor-cinco: #000000;
+}
+
+body{
+    background-color: var(--cor-tres);
+    width: 100%;
+}
+
+.bttn{
+    background-color: var(--cor-dois);
+    border: none;
+    text-decoration: none;
+    color: ;
+    border-radius: 12px;
+    padding: 0.50rem;
+    margin-bottom: 1rem;
+}   
+
+/* DESKTOP */
+@media screen and (min-width: 1280px) {
+    .cabecalho{
+        background-color: var(--cor-um);
+        display: grid;
+        place-items: center;
+    }
+
+    /* CARDAPIO */
+
+    .cardapio{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        font-family: 'Arial';
+    }
+
+    .container{
+        display: grid;
+        place-items: center;
+        
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+        border: 0.063rem solid var(--cor-dois);
+        border-radius: 0.75rem;
+        padding: 0.625rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+
+
+    .menu-segunda{
+        grid-column-start: 2;
+        grid-template-columns: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        border: 0.063rem solid var(--cor-dois);
+        border-radius: 0.75rem;
+        padding: 0.625rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+        margin-right: 0.375rem;
+    }
+
+    .menu-terca{
+        grid-column-start: 3;
+        grid-template-columns: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        border: 0.063rem solid var(--cor-dois);
+        border-radius: 0.75rem;
+        padding: 0.625rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+        margin-left: 0.375rem;
+    }
+
+    .menu-quarta{
+        grid-column-start: 2;
+        grid-template-columns: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        border: 0.063rem solid var(--cor-dois);
+        border-radius: 0.75rem;
+        padding: 0.625rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+        margin-right: 0.375rem;
+    }
+
+    .menu-quinta{
+        grid-column-start: 3;
+        grid-template-columns: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        border: 0.063rem solid var(--cor-dois);
+        border-radius: 0.75rem;
+        padding: 0.625rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+        margin-left: 0.375rem;
+    }
+
+
+    .menu-sexta{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        border: 0.063rem solid var(--cor-dois);
+        border-radius: 0.75rem;
+        padding: 0.625rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+
+    .cardapio_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn_cardapio{
+        background-color: var(--cor-tres);
+        border: solid var(--cor-cinco) 0.1rem;
+        border-radius: 8rem;
+    }
+
+    .btn_cardapio{
+        width: 4vw;
+        columns: var(--cor-cinco);
+    }
+
+    h2 {
+        margin-top: 0;
+        display: grid;
+        place-items: center;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    p {
+        margin-bottom: 0.313rem;
+    }
+
+    /* FIM DO CARDAPIO */
+
+
+
+    .rodape{
+        width: 100%;
+        padding-top: 4rem;
+    }
+    
+    .contatos{
+        background-color: var(--cor-dois);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        height: 3rem;
+        font-family: 'Arial';
+    }
+
+    .contatos > a > img {
+        width: 2.5vw;
+    }
+    
+    .img-do-rodape{
+        background-color: var(--cor-quatro);
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+        height: 3.5rem;
+    }
+}
+
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .cabecalho{
+        background-color: var(--cor-um);
+        display: grid;
+        place-items: center;
+    }
+
+
+
+   /* CARDAPIO */
+
+   .cardapio{
+        display: grid;
+        font-family: 'Arial';
+        width: 80vw;
+        margin-left: 5rem;
+}
+
+    .container{
+        display: grid;
+        place-items: center;
+        border: 0.063rem solid var(--cor-dois);
+        border-radius: 0.75rem;
+        padding: 0.625rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+        
+    }
+
+
+    .menu-segunda,
+    .menu-terca,
+    .menu-quarta,
+    .menu-quinta,
+    .menu-sexta{
+        border: 0.063rem solid var(--cor-dois);
+        border-radius: 0.75rem;
+        padding: 1.5rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+        margin-right: 0.375rem;
+    }
+
+    .cardapio_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn_cardapio{
+        background-color: var(--cor-tres);
+        border: solid var(--cor-cinco) 0.1rem;
+        border-radius: 8rem;
+    }
+
+    .btn_cardapio{
+        width: 8vw;
+        columns: var(--cor-cinco);
+    }
+
+   /* FIM DO CARDAPIO */
+
+
+
+    .rodape{
+        width: 100%;
+        padding-top: 4rem;
+    }
+    
+    .contatos{
+        background-color: var(--cor-dois);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        height: 3rem;
+        font-family: 'Arial';
+    }
+
+    .contatos > a > img {
+        width: 5vw;
+    }
+    
+    .img-do-rodape{
+        background-color: var(--cor-quatro);
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+        height: 3.5rem;
+    }
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 767PX){
+    .cabecalho{
+        background-color: var(--cor-um);
+        display: grid;
+        place-items: center;
+    }
+
+
+
+    /* CARDAPIO */
+
+    .cardapio{
+        display: grid;
+        font-family: 'Arial';
+        width: 80vw;
+        margin-left: 2.25rem;
+    }
+
+    .container{
+        display: grid;
+        place-items: center;
+        border: 0.063rem solid var(--cor-dois);
+        border-radius: 0.75rem;
+        padding: 0.625rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+        
+    }
+
+
+    .menu-segunda,
+    .menu-terca,
+    .menu-quarta,
+    .menu-quinta,
+    .menu-sexta{
+        border: 0.063rem solid var(--cor-dois);
+        border-radius: 0.75rem;
+        padding: 1.5rem;
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+        margin-right: 0.375rem;
+    }
+
+    .cardapio_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn_cardapio{
+        background-color: var(--cor-tres);
+        border: solid var(--cor-cinco) 0.1rem;
+        border-radius: 8rem;
+    }
+
+    .btn_cardapio{
+        width: 14vw;
+        columns: var(--cor-cinco);
+    }
+
+       /* FIM DO CARDAPIO */
+
+
+
+    .rodape{
+        width: 100%;
+        padding-top: 4rem;
+    }
+    
+    .contatos{
+        background-color: var(--cor-dois);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        height: 3rem;
+        font-family: 'Arial';
+    }
+
+    .contatos > a > img {
+        width: 10vw;
+    }
+    
+    .img-do-rodape{
+        background-color: var(--cor-quatro);
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+        height: 3.5rem;
+    }
+}

@@ -1,0 +1,12 @@
+.tatable{
+    width: 1000px;
+    text-align: center;
+    border: "0";
+    cellspacing: "5";
+    cellpadding: "1";
+}
+
+#tr1{
+    text-align: center;
+    background-color: var(--);
+}

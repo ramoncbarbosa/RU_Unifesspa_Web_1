@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    width: 390px;
+    height: 1082px;
+
+    background: #FFFFFF;
+}
+
+@media screen and (min-width: 390px) and (max-width: 844px){
+    
+    .cabecalho{
+        background-color: #2CBC63;
+        width: 100vw;
+        height: 133px;
+        text-align: center;
+        font-family: "open-sans";
+        color: #333333;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    .logo10anos{
+        max-width: 100%;
+        width: 80vw;
+    }
+
+    .txt{
+        margin-left: 15.5px;
+        margin-right: 15.5px;
+        border-radius: 8px;
+        font-size: 12.5px;
+        justify-content: center;
+        margi-ke: 2rem;
+    }
+
+    .texto{
+        width: 359px;
+        height: 127px;
+        left: 19px;
+        top: 602px;
+    }
+
+    .cliqueaqui{
+        color: #2B5F9C;
+        text-decoration: none;
+    }
+
+    .container_blocos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 127px;
+        margin: 0.5rem;
+        gap: 0.25rem;
+    }
+
+    .login{
+        border: 1px solid #d9d9d9;
+        border-radius: 8%;
+    }
+
+    .img_login{
+        max-width: 50%;
+        width: 80vw;
+        color: #FFFFFF;
+    }
+
+    .cardapio{
+        border: 1px solid #d9d9d9;
+        border-radius: 8%;
+    }
+
+    .img_login{
+
+    }
+
+    .gov{
+
+    }
+
+    .gov_gov{
+        width: 100vw;
+        background-color: #0042B1;
+    }
+
+    .gov_br{
+        text-align: end;
+    }
+
+    .gov_br{
+        max-width: 100%;
+        width: 80vw;
+    }
+}
