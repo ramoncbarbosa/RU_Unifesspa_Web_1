@@ -25,11 +25,24 @@ body{
 @media screen and (min-width: 1280px) {
     .cabecalho{
         background-color: var(--cor-um);
-        display: grid;
-        place-items: center;
-        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+        max-width: 100%;
     }
 
+    .user{
+        width: 5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--cor-tres);
+        text-shadow: 2px var(--cor-cinco);
+    }
+
+    .cabecalho button{
+        border: none;
+        cursor: pointer;
+    }
     /*---------------------------------------------*/
 
 

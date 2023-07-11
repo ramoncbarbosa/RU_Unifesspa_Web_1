@@ -1,7 +1,21 @@
+const currentUser = document.querySelector('#user');
 const userSubsidio = document.querySelector('#userSubsidio');
 const userPrice = document.querySelector('#userPrice');
 const userQuantity = document.querySelector('#userQuantity');
-user = JSON.parse(localStorage.getItem(sessionStorage.getItem('currentUser')));
+const user = JSON.parse(localStorage.getItem(sessionStorage.getItem('currentUser')));
+const logoutButton = document.querySelector('#logoutButton');
+
+if(!user){
+    alert('Realize o login primeiro!');
+    window.location.href = 'login.html';
+}
+
+currentUser.textContent = `Olá, ${user.userName}`;
+logoutButton.addEventListener('click', ()=>{
+    sessionStorage.removeItem('currentUser');
+    alert('Logout efetuado com sucesso.')
+    window.location.href = 'index.html';
+})
 
 if(user.userSubsidio){
     userSubsidio.textContent = 'Sim';

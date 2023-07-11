@@ -1,5 +1,9 @@
 loginButton = document.querySelector('#entrarAluno');
 
+if(sessionStorage.getItem('currentUser')){
+    window.location.href = 'compra.html';
+}
+
 loginButton.addEventListener('click', function(){
     var keys = Object.keys(localStorage);
 
