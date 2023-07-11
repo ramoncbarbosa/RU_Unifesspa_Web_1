@@ -5,18 +5,17 @@ if(sessionStorage.getItem('currentUser')){
 }
 
 loginButton.addEventListener('click', function(){
-    var keys = Object.keys(localStorage);
-
-    for(var i=0; i<keys.length; i++){
-        var user = JSON.parse(localStorage.getItem(keys[i]));
-        let entryUser = document.querySelector('#user').value
-        let entryPass = document.querySelector('#password').value
+    let entryUser = document.querySelector('#user').value
+    let entryPass = document.querySelector('#password').value
+    var user = localStorage.getItem(entryUser);
+    if(user){
+        user = JSON.parse(user);
         entryPass = sjcl.codec.hex.fromBits(sjcl.misc.pbkdf2(entryPass, user.salt, 10000, 256));
         if(entryUser === user.userLogin && entryPass === user.userPassword){
             window.location.href = 'compra.html';
-            sessionStorage.setItem('currentUser', keys[i]);
+            sessionStorage.setItem('currentUser', user.userLogin);
             return alert('Login efetuado com sucesso.');
         }
     }
-    alert('Login ou senha incorretos, verifique e tente novamente');
+    return alert('Login ou senha incorretos, verifique e tente novamente');
 })

@@ -10,14 +10,9 @@ function newUser(userName, userLogin, userPassword, userSubsidio){
         userSubsidio:userSubsidio
     };
 
-    var keys = Object.keys(localStorage);
-    for(var i=0; i<keys.length; i++){
-        user = JSON.parse(localStorage.getItem(keys[i]));
-        if(user.userLogin === objUser.userLogin){
-            return false;
-        }
+    if(!localStorage.getItem(objUser.userLogin)){
+        localStorage.setItem(objUser.userLogin, JSON.stringify(objUser));
     }
-    localStorage.setItem(Object.keys(localStorage).length, JSON.stringify(objUser));
 }
 
 newUser('Admin', 'admin@unifesspa.edu.br', 'admin', false);
