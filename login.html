@@ -4,57 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--ARQUIVOS EXTERNOS-->
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/login1.css">
     <!--FIM DOS LINKS DOS ARQUIVOS EXTERNOS-->
     <title>Login</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <a href="./index.html"><img src="./img/RU-por-extenso-b 1.png" alt="Imagem do RU da Unifesspa"></a>
-    </header>
-
-    <main>
-        <div class="container">
-            <div class="aluno">
-                <img class="img_aluno" src="./img/aluno.png" alt="img representando os alunos">
-                <form class="form_aluno">
-                    <input id="user" class="nome" type="text" name="username" placeholder="USUÁRIO">
-                    <br>
-                    <input id="password" class="senha" type="password" name="pwd" placeholder="SENHA">
-                    <br>
-                </form>
-                <button class="entrar_aluno" id="entrarAluno">ENTRAR</button>
-            </div>
-            <div class="visitante">
-                <img class="img_visitante" src="./img/visitante.png" alt="img representando não alunos">
-                <form class="form_visitante">
-                    <input class="nome" type="text" name="username" placeholder="VISITANTE">
-                    <br>
-                    <input class="senha" type="password"  name="pwd" placeholder="NÚMERO">
-                    <br>
-                    <br>
-                    <button class="entrar_visitante" id="entrar_visitante">ENTRAR</button>
-                  </form>
-            </div>
-        </div>
-    </main>
-
-    <footer class="rodape">
-        <div>
-            <div class="contatos">
-                <a href="https://www.unifesspa.edu.br/fale-conosco"><img src="./svg/contato.svg" alt=""></a>
-                <a href="https://www.instagram.com/unifesspa/"><img src="./svg/instagram.svg" alt=""></a>
-            </div>
-            <div class="img-do-rodape">
-                <picture class="informacao">
-                    <img src="./img/informacao.png" alt="imagem informação">
-                </picture>
-                <picture class="brasil">
-                    <img src="./img/brasil.png" alt="imagem da logo do brasil">
-                </picture>
-            </div>
-        </div>
-    </footer>
+    <div class="wrapper">
+        <header class="cabecalho">
+            <a href="./index.html"><img src="./img/RU-por-extenso-b 1.png" alt="Imagem do RU da Unifesspa"></a>
+        </header>
+    
+        <main class="container">
+            <!-- <div > -->
+                <div class="aluno">
+                    <img class="img_aluno" src="./img/aluno.png" alt="img representando os alunos">
+                    <div class="form_aluno">
+                        <input id="user" class="nome" type="email" name="username" placeholder="USUÁRIO" autocomplete="email">
+                        <input id="password" class="senha" type="password" name="pwd" placeholder="SENHA">
+                        <button class="entrar_aluno" id="entrarAluno">ENTRAR</button>
+                    </div>
+                </div>
+                <div class="visitante">
+                    <!-- <img class="img_visitante" src="./img/visitante.png" alt="img representando não alunos"> -->
+                    <form class="form_visitante">
+                        <!-- <input class="nome" type="text" name="username" placeholder="VISITANTE">
+                        <input class="senha" type="password"  name="pwd" placeholder="NÚMERO"> -->
+                        <button class="entrar_visitante" id="entrar_visitante">SOU VISITANTE</button>
+                    </form>
+                </div>
+            <!-- </div> -->
+        </main>
+    
+        <footer class="rodape">
+                <div class="contatos">
+                    <a href="https://www.unifesspa.edu.br/fale-conosco"><img src="./svg/contato.svg" alt=""></a>
+                    <a href="https://www.instagram.com/unifesspa/"><img src="./svg/instagram.svg" alt=""></a>
+                </div>
+                <div class="img-do-rodape">
+                    <picture class="informacao">
+                        <img src="./img/informacao.png" alt="imagem informação">
+                    </picture>
+                    <picture class="brasil">
+                        <img src="./img/brasil.png" alt="imagem da logo do brasil">
+                    </picture>
+                </div>
+        </footer>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sjcl/1.0.8/sjcl.min.js"></script>
     <script src="scripts/login.js"></script>

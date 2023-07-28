@@ -1,0 +1,108 @@
+:root{
+    --cor-um: #2CBC63;
+    --cor-dois: #D9D9D9;
+    --cor-tres: #FFFFFF;
+    --cor-quatro: #0042B1;
+    --cor-cinco: #000000;
+}
+
+body{
+    /* overflow-x: hidden; */
+    margin: 0;
+    background-color: var(--cor-tres);
+}
+
+.wrapper{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3rem;
+}
+
+.cabecalho{
+    background-color: var(--cor-um);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 2rem;
+    flex-grow: 1;
+}
+
+.aluno, .visitante{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+
+.form_aluno, .form_visitante{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.nome, .senha{
+    background-color: var(--cor-dois);
+    border: 0;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+button{
+    border-radius: 12px;
+    border: 0;
+    padding-block: 5px;
+    padding-inline: 10px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 0;
+}
+
+.contatos{
+    background-color: var(--cor-dois);
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    padding-block: 5px;
+}
+.img-do-rodape{
+    background-color: var(--cor-quatro);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+
+
+
+
+
+/* Temporário */
+
+.img_visitante{
+    width: 5rem;
+}
+.img_aluno {
+    width: 5rem;
+}
+.contatos > a > img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
