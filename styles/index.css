@@ -7,71 +7,68 @@
 }
 
 body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     margin: 0;
     background-color: var(--cor-tres);
 }
 
 .wrapper{
+    position: relative;
     width: 100vw;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 3rem;
 }
 
 .cabecalho{
     background-color: var(--cor-um);
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
     flex-grow: 0;
 }
 
-
-.container{
+.navegacao{
+    background-color: var(--cor-dois);
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    row-gap: 2rem;
-    flex-grow: 1;
+    justify-content: center;
+    column-gap: 1rem;
+    padding-block: 0.5rem;
+    flex-grow: 0;
 }
 
-.aluno, .visitante{
+.cardapio, .login{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 1rem;
+    row-gap: 0.5rem;
+    text-decoration: none;
 }
 
-
-.form_aluno, .form_visitante{
+main{
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
-    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 5rem;
+    padding-block: 2rem;
 }
 
-.nome, .senha{
-    background-color: var(--cor-dois);
-    border: 0;
-    border-radius: 12px;
-    padding: 5px;
+.rumaraba > img{
+    width: 529px;
+    height: 331px;
 }
 
-button{
-    border-radius: 12px;
-    border: 0;
-    padding-block: 5px;
-    padding-inline: 10px;
+.texto {
+    font-family: 'Arial';
+    color: var(--cor-tres);
 }
 
 .rodape{
     display: flex;
     flex-direction: column;
-    width: 100%;
     flex-grow: 0;
 }
 
@@ -85,6 +82,7 @@ button{
 .img-do-rodape{
     background-color: var(--cor-quatro);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0.5rem 1rem;
 }
@@ -105,4 +103,19 @@ button{
 .contatos > a > img {
     height: 1.5rem;
     width: 1.5rem;
+}
+.cardapio > img, .login > img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+@media screen and (max-width: 706px){
+    .cabecalho > img{
+        width: 80vw;
+        height: auto;
+    }
+    .rumaraba > img{
+        width: 80vw;
+        height: auto;
+    }
 }
