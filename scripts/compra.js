@@ -4,6 +4,7 @@ const userPrice = document.querySelector('#userPrice');
 const userQuantity = document.querySelector('#userQuantity');
 const user = JSON.parse(localStorage.getItem(sessionStorage.getItem('currentUser')));
 const logoutButton = document.querySelector('#logoutButton');
+const comprarButton = document.querySelector('#comprarButton');
 
 if(!user){
     alert('Realize o login primeiro!');
@@ -13,6 +14,7 @@ if(!user){
 currentUser.textContent = `Olá, ${user.userName}`;
 logoutButton.addEventListener('click', ()=>{
     sessionStorage.removeItem('currentUser');
+    sessionStorage.removeItem('currentValue');
     alert('Logout efetuado com sucesso.')
     window.location.href = 'index.html';
 })
@@ -31,3 +33,8 @@ if(user.userSubsidio){
     })
 }
 
+comprarButton.addEventListener('click', ()=>{
+    price = userSubsidio.textContent === 'Sim' ? 2:13;
+    sessionStorage.setItem('currentValue', userQuantity.value*price);
+    window.location.href = 'pagamento.html'
+})
