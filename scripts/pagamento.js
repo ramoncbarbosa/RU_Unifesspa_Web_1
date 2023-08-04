@@ -2,5 +2,5 @@ if(!sessionStorage.getItem('currentUser'))
     window.location.href = 'login.html'
 
 setTimeout(()=>{
-    window.location.href = 'pixEfetuado.html'
+    window.location.href = 'comprovante.html'
 }, 1000)

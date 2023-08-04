@@ -11,4 +11,5 @@ if(userValue)
     document.querySelector('#value').textContent = `R$ ${parseFloat(userValue).toLocaleString(undefined,{minimumFractionDigits:2})}`;
 
 const dateHour = new Date()
-console.log(dateHour.toLocaleDateString(undefined))
+date.textContent = dateHour.toLocaleDateString(undefined)
+hour.textContent = dateHour.toLocaleTimeString(undefined)
