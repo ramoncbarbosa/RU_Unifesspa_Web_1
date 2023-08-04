@@ -3,4 +3,4 @@ if(!sessionStorage.getItem('currentUser'))
 
 setTimeout(()=>{
     window.location.href = 'comprovante.html'
-}, 1000)
+}, 10000)

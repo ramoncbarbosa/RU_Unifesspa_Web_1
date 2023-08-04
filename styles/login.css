@@ -12,6 +12,10 @@ body{
     background-color: var(--cor-tres);
 }
 
+input::placeholder{
+    text-align: center;
+}
+
 .wrapper{
     width: 100vw;
     min-height: 100vh;

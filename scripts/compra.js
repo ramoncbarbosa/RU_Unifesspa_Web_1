@@ -5,6 +5,7 @@ const userQuantity = document.querySelector('#userQuantity');
 const user = JSON.parse(localStorage.getItem(sessionStorage.getItem('currentUser')));
 const logoutButton = document.querySelector('#logoutButton');
 const comprarButton = document.querySelector('#comprarButton');
+console.log(sessionStorage.getItem('currentUser'))
 
 if(!user){
     alert('Realize o login primeiro!');
