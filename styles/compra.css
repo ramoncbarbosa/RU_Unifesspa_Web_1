@@ -39,12 +39,19 @@ body{
         text-shadow: 2px var(--cor-cinco);
     }
 
+    button{
+        border-radius: 12px;
+        border: 0;
+        padding-block: 5px;
+        padding-inline: 10px;
+        cursor: pointer;
+    }
+
     .cabecalho button{
         border: none;
         cursor: pointer;
     }
     /*---------------------------------------------*/
-
 
     .content{
         display: flex;

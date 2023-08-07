@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --cor-um: #2CBC63;
     --cor-dois: #D9D9D9;
@@ -8,7 +12,6 @@
 
 body{
     /* overflow-x: hidden; */
-    margin: 0;
     background-color: var(--cor-tres);
 }
 
@@ -43,7 +46,7 @@ input::placeholder{
     flex-grow: 1;
 }
 
-.aluno, .visitante{
+.aluno{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +55,7 @@ input::placeholder{
 }
 
 
-.form_aluno, .form_visitante{
+.form_aluno{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -65,12 +68,25 @@ input::placeholder{
     padding: 5px;
 }
 
+.entrar_aluno{
+    background-color: var(--cor-um);
+    color: var(--cor-tres);
+}
+
 button{
     border-radius: 12px;
     border: 0;
     padding-block: 5px;
     padding-inline: 10px;
+    cursor: pointer;
 }
+
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1rem;
+}
+
 
 .rodape{
     display: flex;

@@ -26,10 +26,14 @@ loginButton.addEventListener('click', function(){
             userLogin: entryUser,
             userName: entryPass
         };
-        localStorage.setItem(objUser.userLogin, JSON.stringify(objUser));
-        sessionStorage.setItem('currentUser', objUser.userLogin);
-        window.location.href = 'compra.html';
-        return alert('Visitante registrado com sucesso.');
+        if(objUser.userLogin && user.userName){
+            localStorage.setItem(objUser.userLogin, JSON.stringify(objUser));
+            sessionStorage.setItem('currentUser', objUser.userLogin);
+            window.location.href = 'compra.html';
+            return alert('Visitante registrado com sucesso.');
+        }else{
+            return alert('Os campos de E-Mail e Nome são obrigatórios.');
+        }
     }
 })
 
@@ -44,6 +48,7 @@ visitanteButton.addEventListener('click', ()=>{
     }else{
         document.querySelector('.img_aluno').setAttribute('src', './img/aluno.png')
         document.querySelector('#password').setAttribute('placeholder', 'SENHA')
+        document.querySelector('#password').setAttribute('type', 'password')
         visitanteButton.textContent = 'SOU VISITANTE'
     }
 })
