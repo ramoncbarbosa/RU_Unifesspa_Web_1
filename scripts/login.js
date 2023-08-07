@@ -26,7 +26,7 @@ loginButton.addEventListener('click', function(){
             userLogin: entryUser,
             userName: entryPass
         };
-        if(objUser.userLogin && user.userName){
+        if(entryUser && entryPass){
             localStorage.setItem(objUser.userLogin, JSON.stringify(objUser));
             sessionStorage.setItem('currentUser', objUser.userLogin);
             window.location.href = 'compra.html';

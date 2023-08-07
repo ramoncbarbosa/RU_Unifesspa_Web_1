@@ -17,14 +17,14 @@
         <main class="container">
             <div class="aluno">
                 <img class="img_aluno" src="./img/aluno.png" alt="img representando os alunos">
-                <div class="form_aluno">
-                    <input id="user" class="nome" type="email" name="username" placeholder="E-MAIL" autocomplete="email">
+                <form class="form_aluno" onsubmit="return false">
+                    <input id="user" class="nome" type="email" name="username" placeholder="E-MAIL" autocomplete="on">
                     <input id="password" class="senha" type="password" name="pwd" placeholder="SENHA">
                     <div class="buttons">
                         <button class="entrar_visitante" id="entrar_visitante">SOU VISITANTE</button>
                         <button class="entrar_aluno" id="entrarAluno">ENTRAR</button>
                     </div>
-                </div>
+                </form>
             </div>
         </main>
     
