@@ -28,6 +28,8 @@ if(user.userSubsidio){
     userQuantity.value = 1;
     userPrice.textContent = 'R$ 13,00';
     userQuantity.addEventListener('input', ()=>{
+        let currentQuantity = userQuantity.value < 1 ? 1:userQuantity.value;
+        userQuantity.value = currentQuantity;
         let currentPrice = userQuantity.value * 13.00;
         userPrice.textContent = `R$ ${currentPrice.toLocaleString(undefined,{minimumFractionDigits:2})}`;
     })
@@ -35,6 +37,7 @@ if(user.userSubsidio){
 
 comprarButton.addEventListener('click', ()=>{
     price = userSubsidio.textContent === 'Sim' ? 2:13;
+    userQuantity.value = userQuantity.value < 1 ? 1:userQuantity.value;
     sessionStorage.setItem('currentValue', userQuantity.value*price);
     window.location.href = 'pagamento.html'
 })

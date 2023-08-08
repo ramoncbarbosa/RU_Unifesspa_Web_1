@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--ARQUIVOS EXTERNOS-->
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/cadastro.css">
     <!--FIM DOS LINKS DOS ARQUIVOS EXTERNOS-->
-    <title>Login</title>
+    <title>Cadastro</title>
 </head>
 <body>
     <div class="wrapper">
@@ -18,12 +18,12 @@
             <div class="aluno">
                 <img class="img_aluno" src="./img/aluno.png" alt="img representando os alunos">
                 <form class="form_aluno" onsubmit="return false">
-                    <input id="user" class="nome" type="email" name="username" placeholder="E-MAIL" autocomplete="on">
-                    <input id="password" class="senha" type="password" name="pwd" placeholder="SENHA">
-                    <div class="buttons">
-                        <button class="entrar_aluno" id="entrarAluno">ENTRAR</button>
-                        <button class="cadastroVisitante" id="cadastroVisitante">CADASTRO VISITANTE</button>
+                    <div class="campos_form">
+                        <input id="user" class="nome" type="text" placeholder="NOME">
+                        <input id="email" class="email" type="email" placeholder="E-MAIL" autocomplete="on">
+                        <input id="password" class="senha" type="password" placeholder="SENHA">
                     </div>
+                    <button class="cadastroButton" id="cadastroButton">CADASTRAR</button>
                 </form>
             </div>
         </main>
@@ -45,6 +45,6 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sjcl/1.0.8/sjcl.min.js"></script>
-    <script src="scripts/login.js"></script>
+    <script src="scripts/cadastro.js"></script>
 </body>
 </html>

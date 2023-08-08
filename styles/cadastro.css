@@ -55,13 +55,18 @@ input::placeholder{
 }
 
 
-.form_aluno{
+.form_aluno, .campos_form{
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    align-items: center;
+    row-gap: 1.5rem;
 }
 
-.nome, .senha{
+.campos_form{
+    row-gap: 0.7rem;
+}
+
+.nome, .email, .senha{
     background-color: var(--cor-dois);
     border: 0;
     border-radius: 12px;
@@ -69,12 +74,16 @@ input::placeholder{
     box-shadow: 1px 1px 4px 0.3px rgba(0, 0, 0, 0.3);
 }
 
-.entrar_aluno{
+.cadastroButton{
     background-color: var(--cor-um);
     color: var(--cor-tres);
+    max-width: 7rem;
 }
 
 .nome:focus-visible{
+    outline: 1px solid var(--cor-cinco);
+}
+.email:focus-visible{
     outline: 1px solid var(--cor-cinco);
 }
 .senha:focus-visible{
