@@ -16,12 +16,16 @@ cadastroButton.addEventListener('click', ()=>{
         userSubsidio:false
     };
 
-    if(!localStorage.getItem(objUser.userLogin)){
-        localStorage.setItem(objUser.userLogin, JSON.stringify(objUser));
-        window.location.href = './login.html';
-        return alert('Usuário cadastrado com sucesso.\nRedirecionando para a página de login.');
+    if(objUser.userName && objUser.userLogin && userPassword.value){
+        if(!localStorage.getItem(objUser.userLogin)){
+            localStorage.setItem(objUser.userLogin, JSON.stringify(objUser));
+            window.location.href = './login.html';
+            return alert('Usuário cadastrado com sucesso.\nRedirecionando para a página de login.');
+        }else{
+            return alert('Usuário já cadastrado.');
+        }
     }else{
-        return alert('Usuário já cadastrado.');
+        return alert('Todos os campos são obrigatórios.');
     }
 })
 

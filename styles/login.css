@@ -4,10 +4,12 @@
 }
 :root{
     --cor-um: #2CBC63;
+    --cor-um-hover: #57ce85;
     --cor-dois: #D9D9D9;
     --cor-tres: #FFFFFF;
     --cor-quatro: #0042B1;
     --cor-cinco: #000000;
+    --cor-seis: #e7e7e7;
 }
 
 body{
@@ -83,6 +85,11 @@ input::placeholder{
 
 .cadastroVisitante{
     max-width: 7rem;
+    background-color: var(--cor-seis);
+}
+
+.cadastroVisitante:hover{
+    background-color: var(--cor-dois);
 }
 
 button{
@@ -92,6 +99,10 @@ button{
     padding-inline: 10px;
     cursor: pointer;
     box-shadow: 1px 1px 5px 0.2px rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    background-color: var(--cor-um-hover);
 }
 
 .buttons{

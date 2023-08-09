@@ -4,6 +4,7 @@
 }
 :root{
     --cor-um: #2CBC63;
+    --cor-um-hover: #57ce85;
     --cor-dois: #D9D9D9;
     --cor-tres: #FFFFFF;
     --cor-quatro: #0042B1;
@@ -78,6 +79,10 @@ input::placeholder{
     background-color: var(--cor-um);
     color: var(--cor-tres);
     max-width: 7rem;
+}
+
+.cadastroButton:hover{
+    background-color: var(--cor-um-hover);
 }
 
 .nome:focus-visible{
