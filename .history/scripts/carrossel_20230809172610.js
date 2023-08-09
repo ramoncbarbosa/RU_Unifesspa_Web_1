@@ -1,0 +1,1 @@
+const carrosselImg = document.getElementById("carrossel")

@@ -1,0 +1,17 @@
+.carrossel{
+    overflow: hidden;
+    width: 28.25rem;
+    height: 31.25rem;
+}
+
+.carrossel-container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.carrossel-img{
+    object-fit: cover;
+    width: 31.25rem;
+    height: 31.25rem;
+}
