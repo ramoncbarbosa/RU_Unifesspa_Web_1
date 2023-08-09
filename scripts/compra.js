@@ -28,7 +28,7 @@ if(user.userSubsidio){
     userQuantity.value = 1;
     userPrice.textContent = 'R$ 13,00';
     userQuantity.addEventListener('input', ()=>{
-        let currentQuantity = userQuantity.value < 1 ? 1:userQuantity.value;
+        let currentQuantity = userQuantity.value < 1 && userQuantity.value ? 1:userQuantity.value;
         userQuantity.value = currentQuantity;
         let currentPrice = userQuantity.value * 13.00;
         userPrice.textContent = `R$ ${currentPrice.toLocaleString(undefined,{minimumFractionDigits:2})}`;
