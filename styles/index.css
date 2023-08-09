@@ -56,6 +56,10 @@ main{
     padding-block: 2rem;
 }
 
+main > p{
+    text-align: justify;
+}
+
 .rumaraba > img{
     width: 529px;
     height: 331px;
