@@ -1,0 +1,55 @@
+
+
+.carrossel-container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+
+/* DESKTOP */
+@media screen and (min-width: 1280px) {
+    .carrossel{
+        overflow: hidden;
+        width: 70vw;
+        height: 25.25rem;
+    }
+
+    .carrossel-container > img{
+        object-fit: cover;
+        width: 40.25rem;
+        height: 25.25rem;
+    }
+}
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .carrossel{
+        overflow: hidden;
+        width: 80vw;
+        height: 45vh;
+    }
+
+
+    .carrossel-container > img{
+        object-fit: cover;
+        width: 80vw;
+        height: 45vh;
+    }
+}
+
+
+
+/* MOBILE */
+@media screen and (max-width: 767PX){
+    .carrossel{
+        overflow: hidden;
+        width: 60vw;
+        height: 30vh;
+    }
+    
+    .carrossel-container > img{
+        object-fit: cover;
+        width: 60vw;
+        height: 30vh;
+    }
+}
