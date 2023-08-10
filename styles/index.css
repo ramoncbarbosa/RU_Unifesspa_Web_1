@@ -57,6 +57,7 @@ main{
 }
 
 main > p{
+    max-width: 80%;
     text-align: justify;
 }
 
@@ -121,5 +122,8 @@ main > p{
     .rumaraba > img{
         width: 80vw;
         height: auto;
+    }
+    main > p{
+        max-width: 100%;
     }
 }

@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
-    /* overflow-x: none; */
+    overflow-x: hidden;
 }
 
 :root{
@@ -35,320 +34,146 @@ button{
     background-color: var(--cor-um-hover);
 }
 
-/* DESKTOP */
-@media screen and (min-width: 1280px) {
-    .cabecalho{
-        background-color: var(--cor-um);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 1rem;
-        max-width: 100%;
-    }
-
-    .user{
-        width: 5rem;
-        font-family: Arial, Helvetica, sans-serif;
-        color: var(--cor-tres);
-        text-shadow: 2px var(--cor-cinco);
-    }
-
-
-    .logoutButton > img{
-        border: none;
-        cursor: pointer;
-    }
-    /*---------------------------------------------*/
-
-    .content{
-        display: flex;
-        width: 50%;
-
-        margin: 5rem auto;
-        padding: 4.375rem;
-
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        row-gap: 3.125rem;
-        
-        background: var(--cor-dois);
-        
-        border-radius: 0.313rem;
-    }
-    
-    .formulario{
-        display: grid;
-        grid-template-columns: auto auto;
-        row-gap: 0.625rem;
-        column-gap: 0.938rem;
-    }
-    
-    .pay{
-        display: grid;
-        grid-template-columns: 1.25rem auto;
-        column-gap: 0.625rem;
-        align-items: center;
-    }
-    
-    .checkbox{
-        width: 10.938rem;
-    }
-    
-    input{
-        width: 6.25rem;
-    }
-    
-    .btn{
-        text-decoration: none;
-        cursor: pointer;
-        color: var(--cor-tres);
-        border-radius: 0.625rem;
-        padding: 0.625rem 0.938rem;
-        background-color: var(--cor-um);
-    }
-
-    .link_cardapio{
-        text-decoration: none;
-    }
-
-    /*---------------------------------------------*/
-
-    .rodape{
-        width: 100%;
-        padding-top: 4rem;
-    }
-    
-    .contatos{
-        background-color: var(--cor-dois);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 8rem;
-        height: 3rem;
-        font-family: 'Arial';
-    }
-
-    .contatos > a > img {
-        width: 2.5vw;
-    }
-    
-    .img-do-rodape{
-        background-color: var(--cor-quatro);
-        display: flex;
-        justify-content: space-between;
-        padding: 0 1rem;
-        height: 3.5rem;
-    }
+.wrapper{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3rem;
 }
 
-/* TABLET */
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-    .cabecalho{
-        background-color: var(--cor-um);
-        display: grid;
-        place-items: center;
-        max-width: 100%;
-        max-height: 100%;
-    }
+.cabecalho{
+    background-color: var(--cor-um);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 0;
 
-    /*---------------------------------------------*/
+    padding-inline: 1rem;
+}
 
-    .container{
-        display: flex;
-        width: 100%;
-        height: 100%;
-        box-sizing: content-box;
-    }
+.home{
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+}
 
-    .content{
-        display: flex;
-        max-width: 50%;
-
-        margin: 5rem auto;
-        padding: 4.375rem;
-
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        row-gap: 3.125rem;
-        
-        background: var(--cor-dois);
-        
-        border-radius: 0.313rem;
-    }
-    
-    .formulario{
-        display: grid;
-        grid-template-columns: auto auto;
-        row-gap: 0.625rem;
-        column-gap: 0.938rem;
-        font-size: 1.25rem;
-    }
-    
-    .pay{
-        display: grid;
-        grid-template-columns: 1.25rem auto;
-        column-gap: 0.625rem;
-        align-items: center;
-    }
-    
-    .checkbox{
-        width: 10.938rem;
-    }
-    
-    input{
-        width: 6.25rem;
-    }
-    
-    .btn{
-        text-decoration: none;
-        cursor: pointer;
-        color: var(--cor-tres);
-        border-radius: 0.625rem;
-        padding: 0.625rem 0.938rem;
-        background-color: var(--cor-um);
-    }
-
-    p{
-        font-size: 1.25rem;
-    }
-
-    .link_cardapio{
-        text-decoration: none;
-    }
-
-    /*---------------------------------------------*/
-
-    .rodape{
-        width: 100%;
-        padding-top: 6rem;
-    }
-    
-    .contatos{
-        background-color: var(--cor-dois);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 8rem;
-        height: 3rem;
-        font-family: 'Arial';
-    }
-
-    .contatos > a > img {
-        width: 5vw;
-    }
-    
-    .img-do-rodape{
-        background-color: var(--cor-quatro);
-        display: flex;
-        justify-content: space-between;
-        padding: 0 1rem;
-        height: 3.5rem;
-    }
+.user{
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor-tres);
+    text-shadow: 2px var(--cor-cinco);
 }
 
 
-/* MOBILE */
-@media screen and (max-width: 767PX){
+.logout{
+    background-color: var(--cor-um);
+    border: none;
+    box-shadow: none;
+}
+    /*---------------------------------------------*/
+
+.content{
+    display: flex;
+    width: 50%;
+    flex-grow: 1;
+
+    margin: 5rem auto;
+    padding: 4.375rem;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 3.125rem;
+        
+    background: var(--cor-dois);
+        
+    border-radius: 0.313rem;
+}
+    
+.formulario{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 0.625rem;
+    column-gap: 0.938rem;
+}
+    
+.pay{
+    display: grid;
+    grid-template-columns: 1.25rem auto;
+    column-gap: 0.625rem;
+    align-items: center;
+}
+    
+.checkbox{
+    width: 10.938rem;
+}
+    
+input{
+    width: 6.25rem;
+}
+    
+.btn{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--cor-tres);
+    border-radius: 0.625rem;
+    padding: 0.625rem 0.938rem;
+    background-color: var(--cor-um);
+}
+
+.link_cardapio{
+    text-decoration: none;
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 0;
+}
+
+.contatos{
+    background-color: var(--cor-dois);
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    padding-block: 5px;
+}
+.img-do-rodape{
+    background-color: var(--cor-quatro);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+/* Temporário */
+
+.img_visitante{
+    width: 5rem;
+}
+.img_aluno {
+    width: 5rem;
+}
+.contatos > a > img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+@media screen and (max-width: 562px){
     .cabecalho{
-        background-color: var(--cor-um);
-        display: grid;
-        place-items: center;
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    /*---------------------------------------------*/
-
-    .container{
-        display: flex;
-        width: 100%;
-        height: 100%;
-        box-sizing: content-box;
-    }
-
-    .content{
-        display: flex;
-        max-width: 50%;
-
-        margin: 5rem auto;
-        padding: 4.375rem;
-
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        row-gap: 3.125rem;
-        
-        background: var(--cor-dois);
-        
-        border-radius: 0.313rem;
-    }
-    
-    .formulario{
-        display: grid;
-        grid-template-columns: auto auto;
-        row-gap: 0.625rem;
-        column-gap: 0.938rem;
-    }
-    
-    .pay{
-        display: grid;
-        grid-template-columns: 1.25rem auto;
-        column-gap: 0.625rem;
-        align-items: center;
-    }
-    
-    .checkbox{
-        width: 10.938rem;
-    }
-    
-    input{
-        width: 6.25rem;
-    }
-    
-    .btn{
-        text-decoration: none;
-        cursor: pointer;
-        color: var(--cor-tres);
-        border-radius: 0.625rem;
-        padding: 0.625rem 0.938rem;
-        background-color: var(--cor-um);
-    }
-
-    .link_cardapio{
-        text-decoration: none;
-    }
-
-    /*---------------------------------------------*/
-
-    .rodape{
-        width: 100%;
-        padding-top: 4rem;
-    }
-    
-    .contatos{
-        background-color: var(--cor-dois);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 4rem;
-        height: 3rem;
-        font-family: 'Arial';
-    }
-
-    .contatos > a > img {
-        width: 10vw;
-    }
-    
-    .img-do-rodape{
-        background-color: var(--cor-quatro);
-        display: flex;
         justify-content: space-between;
-        padding: 0 1rem;
-        height: 3.5rem;
+    }
+    .home{
+        width: 100%;
+        order: 1;
+    }
+    .user,
+    .logout{
+        order: 2;
     }
 }

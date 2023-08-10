@@ -7,48 +7,50 @@
     <link rel="stylesheet" href="styles/compra.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <p class="user" id="user"> </p>
-        <a class="home" href="./index.html"><img src="./img/RU-por-extenso-b 1.png" alt="Imagem do RU da Unifesspa"></a>
-        <button id="logoutButton"><img src="img/logout_3622.png" alt=""></button>
-    </header>
-    <main class="content">
-        <h1>Compra</h1>
-            <div class="formulario">
-                <label for="">Subsídio:</label>
-                <label for="" id="userSubsidio"><b>Não</b></label>
-                <label for="quantidade">Quantidade*: </label> 
-                <input type="number" name="quantidade" id="userQuantity" min="1" value="1">
-                <label for="">Valor:</label>
-                <label for="" id="userPrice"><b>R$ 13,00</b></label>
-                <label for="pagamento">Método de pagamento:</label>
-                <div class="pay">
-                    <input class="checkbox" type="checkbox" name="pagamento" id="pix" checked required>
-                    <label for="pagamento">Pix</label>
+    <div class="wrapper">
+        <header class="cabecalho">
+            <p class="user" id="user"> </p>
+            <a class="home" href="./index.html"><img src="./img/RU-por-extenso-b 1.png" alt="Imagem do RU da Unifesspa"></a>
+            <button class="logout" id="logoutButton"><img src="img/logout.png" alt=""></button>
+        </header>
+        <main class="content">
+            <h1>Compra</h1>
+                <div class="formulario">
+                    <label for="">Subsídio:</label>
+                    <label for="" id="userSubsidio"><b>Não</b></label>
+                    <label for="quantidade">Quantidade*: </label> 
+                    <input type="number" name="quantidade" id="userQuantity" min="1" value="1">
+                    <label for="">Valor:</label>
+                    <label for="" id="userPrice"><b>R$ 13,00</b></label>
+                    <label for="pagamento">Método de pagamento:</label>
+                    <div class="pay">
+                        <input class="checkbox" type="checkbox" name="pagamento" id="pix" checked required>
+                        <label for="pagamento">Pix</label>
+                    </div>
+                </div>
+                <button class="btn" id="comprarButton">Comprar</button>
+                <div>
+                    <p>*Se o preço for subsidiado, só é possível realizar a compra de uma refeição.</p>
+                    <p>*Consulte as opções de pratos no <a class="link_cardapio" href="cardapio.html">Cardápio</a>.</p>
+                </div>
+        </main>
+        <footer class="rodape">
+            <div>
+                <div class="contatos">
+                    <a href="https://www.unifesspa.edu.br/fale-conosco"><img src="./svg/contato.svg" alt=""></a>
+                    <a href="https://www.instagram.com/unifesspa/"><img src="./svg/instagram.svg" alt=""></a>
+                </div>
+                <div class="img-do-rodape">
+                    <picture class="informacao">
+                        <img src="./img/informacao.png" alt="imagem informação">
+                    </picture>
+                    <picture class="brasil">
+                        <img src="./img/brasil.png" alt="imagem da logo do brasil">
+                    </picture>
                 </div>
             </div>
-            <button class="btn" id="comprarButton">Comprar</button>
-            <div>
-                <p>*Se o preço for subsidiado, só é possível realizar a compra de uma refeição.</p>
-                <p>*Consulte as opções de pratos no <a class="link_cardapio" href="cardapio.html">Cardápio</a>.</p>
-            </div>
-    </main>
-    <footer class="rodape">
-        <div>
-            <div class="contatos">
-                <a href="https://www.unifesspa.edu.br/fale-conosco"><img src="./svg/contato.svg" alt=""></a>
-                <a href="https://www.instagram.com/unifesspa/"><img src="./svg/instagram.svg" alt=""></a>
-            </div>
-            <div class="img-do-rodape">
-                <picture class="informacao">
-                    <img src="./img/informacao.png" alt="imagem informação">
-                </picture>
-                <picture class="brasil">
-                    <img src="./img/brasil.png" alt="imagem da logo do brasil">
-                </picture>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="scripts/compra.js"></script>
 </body>
 </html>
