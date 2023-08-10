@@ -20,6 +20,11 @@ body{
     overflow-x: hidden;
 }
 
+.contatos > a > img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
 /* DESKTOP */
 @media screen and (min-width: 1280px)
 {
