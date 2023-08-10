@@ -61,7 +61,7 @@ button{
 }
 
 .user{
-    width: auto;
+    width: 5rem;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--cor-tres);
     text-shadow: 2px var(--cor-cinco);
@@ -107,12 +107,13 @@ button{
     align-items: center;
 }
     
-.checkbox{
-    width: 10.938rem;
-}
-    
+  
 input{
-    width: 6.25rem;
+    width: 4.6rem;
+}
+
+.checkbox{
+    width: auto;
 }
     
 .btn{
@@ -166,7 +167,7 @@ input{
 
 @media screen and (max-width: 562px){
     .cabecalho{
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .home{
         width: 100%;
