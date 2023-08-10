@@ -1,63 +1,55 @@
+* { margin: 0;
+    padding: 0;
+}
+
+.carrossel{
+    overflow: hidden;
+}
+
+.carrossel-container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.carrossel-container > img{
+    object-fit: cover;
+}
+
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
     .carrossel{
-        overflow: hidden;
-        width: 40.25rem;
-        height: 25.25rem;
-    }
-
-    .carrossel-container{
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-        transform: translateX(0);
+        width: 50vw;
+        height: 62vh;
     }
 
     .carrossel-container > img{
-        object-fit: cover;
-        width: 40.25rem;
-        height: 25.25rem;
+        width: 70vw;
+        height: 62vh;
     }
 }
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .carrossel{
-        overflow: hidden;
-        width: 40.25rem;
-        height: 25.25rem;
-    }
-
-    .carrossel-container{
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-        transform: translateX(0);
+        width: 80vw;
+        height: 45vh;
     }
 
     .carrossel-container > img{
-        object-fit: cover;
-        width: 40.25rem;
-        height: 25.25rem;
+        width: 80vw;
+        height: 45vh;
     }
 }
-
-
 
 /* MOBILE */
 @media screen and (max-width: 767PX){
     .carrossel{
-        overflow: hidden;
-        width: 40.25rem;
-        height: 25.25rem;
-    }
-    
-    .carrossel-container{
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-        transform: translateX(0);
+        width: 60vw;
+        height: 30vh;
     }
     
     .carrossel-container > img{
-        object-fit: cover;
-        width: 40.25rem;
-        height: 25.25rem;
+        width: 60vw;
+        height: 30vh;
     }
 }
