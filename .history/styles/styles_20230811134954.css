@@ -59,6 +59,7 @@ main{
 main > p{
     max-width: 80%;
     text-align: justify;
+    padding-top: 1rem;
 }
 
 .rumaraba > img{
