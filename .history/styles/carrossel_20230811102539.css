@@ -15,9 +15,8 @@
 }
 
 .carrossel-container > img{
-    width: 100%;
-    height: auto;
-    object-fit: cover; 
+    object-fit: cover;
+    
 }
 
 /* DESKTOP */
@@ -32,6 +31,11 @@
     .carrossel{
         width: 80vw;
         height: 45vh;
+    }
+
+    .carrossel-container > img{
+        width: 100%;
+        height: auto
     }
 }
 

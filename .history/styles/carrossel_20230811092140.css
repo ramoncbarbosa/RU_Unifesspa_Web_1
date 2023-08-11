@@ -3,27 +3,29 @@
 }
 
 .carrossel{
-    width: 100%;
     overflow: hidden;
-    position: relative;
 }
 
 .carrossel-container{
     display: flex;
     transition: transform 0.5s ease-in-out;
-    /* transform: translateX(0); */
+    transform: translateX(0);
 }
 
 .carrossel-container > img{
-    width: 100%;
-    height: auto;
-    object-fit: cover; 
+    object-fit: cover;
+    
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
     .carrossel{
         width: 50vw;
+        height: 62vh;
+    }
+
+    .carrossel-container > img{
+        max-width: 50vw;
         height: 62vh;
     }
 }
@@ -33,12 +35,22 @@
         width: 80vw;
         height: 45vh;
     }
+
+    .carrossel-container > img{
+        max-width: 80vw;
+        height: 45vh;
+    }
 }
 
 /* MOBILE */
 @media screen and (max-width: 767PX){
     .carrossel{
         width: 60vw;
+        height: 30vh;
+    }
+    
+    .carrossel-container > img{
+        max-width: 60vw;
         height: 30vh;
     }
 }
